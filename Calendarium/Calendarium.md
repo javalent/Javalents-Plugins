@@ -1,11 +1,12 @@
 ---
-aliases: [The Calendarium]
-cover: 
-description: "Formerly Obsidian Fantasy Calendar, this is a plugin that allows users to create custom calendar systems within Obsidian."
-image: 
+aliases:
+  - The Calendarium
+description: Formerly Obsidian Fantasy Calendar, this is a plugin that allows
+  users to create custom calendar systems within Obsidian.
 permalink: calendarium
 publish: true
-tags: [Calendarium]
+tags:
+  - Calendarium
 ---
 
 [Github Repo](https://github.com/javalent/the-calendarium "Repo") [Changelog](https://github.com/javalent/the-calendarium/blob/857151639a2b797ca502b2be0679fcf74550278a/CHANGELOG.md "Changelog") [Issues](https://github.com/javalent/the-calendarium/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")

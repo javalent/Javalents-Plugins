@@ -1,16 +1,18 @@
 ---
-aliases: [About Javalent]
-cover: 
-description: "Learn about Jeremy Valentine, a senior software engineer and creator of plugins for the Obsidian note-taking app, aimed at enhancing the gameplay experience for tabletop role-playing game (TTRPG) enthusiasts."
-image: 
+aliases:
+  - About Javalent
+description: Learn about Jeremy Valentine, a senior software engineer and
+  creator of plugins for the Obsidian note-taking app, aimed at enhancing the
+  gameplay experience for tabletop role-playing game (TTRPG) enthusiasts.
 permalink: about/javalent
 publish: true
-tags: [About-Javalent]
+tags:
+  - Javalents-Plugins/About
 ---
 
 > [!infobox|wikipedia]+
 > ## Jeremy Valentine
-> ![[javalent-lion-right.png]]
+> ![[_images/IMG-20230804.png]]
 > ### Information
 > | Stat | Info |
 > |---|---|

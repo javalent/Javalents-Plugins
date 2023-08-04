@@ -1,11 +1,13 @@
 ---
-aliases: [Initiative Tracker]
-cover: 
-description: "This is a page about the Initiative Tracker plugin for Obsidian, a tool used to manage initiative and turn order during combat encounters in tabletop role playing games."
-image: 
-permalink: initiative-tracker
+aliases:
+  - Initiative Tracker
+description: This is a page about the Initiative Tracker plugin for Obsidian, a
+  tool used to manage initiative and turn order during combat encounters in
+  tabletop role playing games.
+permalink: it
 publish: true
-tags: [Initiative]
+tags:
+  - IT
 ---
 
 [Github Repo](https://github.com/valentine195/initiative-tracker "Repo") [Changelog](https://github.com/valentine195/initiative-tracker/blob/master/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/initiative-tracker/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc" "Issues")
@@ -45,21 +47,21 @@ The Initiative Tracker plugin for [Obsidian](https://obsidian.md/) allows you 
 
 %% Begin Waypoint %%
 - **Advanced Topics**
-	- [[Initiative Tracker/Proficient Topics/Encounter Builder API]]
-	- [[Initiative Tracker/Proficient Topics/Leaflet Integration]]
-	- [[Initiative Tracker/Proficient Topics/Tracker API]]
+	- [[Initiative Tracker/Encounter Builder API]]
+	- [[Initiative Tracker/Leaflet Integration]]
+	- [[Initiative Tracker/Tracker API]]
 - **Beginner Topics**
-	- [[Creatures and Encounters]]
-	- [[Encounter Parameters]]
-	- [[Inline Encounters]]
-	- [[Launching Encounters]]
-	- [[Multiple Encounters]]
-	- [[Statuses]]
-	- [[Tracker Quickstart]]
-	- [[Tracker Settings]]
+	- [[Initiative Tracker/Creatures and Encounters]]
+	- [[Initiative Tracker/Encounter Parameters]]
+	- [[Initiative Tracker/Inline Encounters]]
+	- [[Initiative Tracker/Launching Encounters]]
+	- [[Initiative Tracker/Multiple Encounters]]
+	- [[Initiative Tracker/Statuses]]
+	- [[Initiative Tracker/Tracker Quickstart]]
+	- [[Initiative Tracker/Tracker Settings]]
 - **Intermediate Topics**
-	- [[Custom Formulas]]
-	- [[Encounter Builder]]
-	- [[Encounter Tables]]
+	- [[Initiative Tracker/Custom Formulas]]
+	- [[Initiative Tracker/Encounter Builder]]
+	- [[Initiative Tracker/Encounter Tables]]
 
 %% End Waypoint %%

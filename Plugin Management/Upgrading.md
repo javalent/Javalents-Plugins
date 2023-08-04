@@ -1,12 +1,12 @@
 ---
 aliases: [Upgrading a Plugin]
-description: "Learn how to upgrade Javalent's plugins for Obsidian and get access to the latest features and improvements."
-image: 
-order: 3
+description: Learn how to upgrade Javalent's plugins for Obsidian and get access
 permalink: plugins/upgrading
 publish: true
-tags: [Plugins/Requirements/Upgrading]
+tags: [Plugins/Upgrading]
 ---
+
+# Upgrading
 
 >[!yellow] Check the Changelogs!
 > It is recommended that you read the changelog for your respective plugin update before upgrading. Some updates may include [[Breaking Change|Breaking Changes]], which will be highlighted in the changelog. It is advisable to create backups of your vault before proceeding with any updates.

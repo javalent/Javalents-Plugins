@@ -1,12 +1,12 @@
 ---
 aliases: [Code Updates]
-cover: 
 description: "Want to know how you can contribute to Javalent by helping with Code Updates? Check this out."
-image: 
 permalink: support/contributing/code-updates
 publish: true
 tags: [Support/Documentation]
 ---
+
+# Code Updates
 
 ## Development
 
@@ -15,8 +15,6 @@ Looking to help out on a specific repository? We're currently working on getting
 ### Recommended Links
 
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) - This is a bible on submitting well-written commits to Javalent. Doing so allows automated tools to pick up the accepted commit, and generate a release. See also [Automate a Release](Help%20and%20Support/Contributing/Code%20Updates.md#Automate%20a%20Release).
-
-
 
 ## Submitting a PR
 

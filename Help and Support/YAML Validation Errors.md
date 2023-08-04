@@ -1,12 +1,12 @@
 ---
 aliases: [YAML Validation]
-cover: 
 description: "This page describes common YAML issues when using Javalent's Plugins."
-image: 
 permalink: support/yaml
 publish: true
 tags: [Support/YAML]
 ---
+
+# YAML Validation Errors
 
 The most common reason why a [[Fantasy Statblocks|Fantasy Statblock]]  and [[Leaflet|Leaflet]] map will not render, is due to YAML syntax errors. 
 
@@ -74,7 +74,7 @@ actions:
 
 ### Spaced Descriptions
 
-A brute-force, but also clean way to create a new line, particularly when working with [[Core Blocks#Trait Block|Trait Blocks]], is use descriptions as newlines. For example:
+A brute-force, but also clean way to create a new line, particularly when working with [[Fantasy Statblocks/The Layout Editor/Core Blocks#Trait Block|Trait Blocks]], is use descriptions as newlines. For example:
 
 ````yaml
 ```statblock

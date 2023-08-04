@@ -1,12 +1,12 @@
 ---
 aliases: [Breaking Changes]
-cover: 
 description: "A breaking change is a modification to a software application, or a plugin, that is incompatible with previous versions."
-image: 
 permalink: glossary/breaking-change
 publish: true
 tags: [Glossary/General]
 ---
+
+# Breaking Change
 
 A breaking change is a modification to a software application, or a plugin, that is incompatible with previous versions. It may cause existing features or functionalities to no longer work as intended. These types of changes can sometimes require users to modify their existing code or configurations to ensure compatibility with the updated version.
 

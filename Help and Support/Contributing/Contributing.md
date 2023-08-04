@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Contributing
-  - Contributing to Javalents Plugins
-cover: 
+aliases: [Contributing, Contributing to Javalents Plugins]
 description: This page details everything you need to know about contributing to
-  a Javalent's Plugins
-image: 
 permalink: contributing
 publish: true
-tags: []
+tags: [Help/Contributing]
 ---
 <!-- omit in toc -->
+
 # Contributing to a Javalent Plugin
 
 First off, thanks for taking the time to contribute. ❤️
@@ -29,6 +25,7 @@ Your PR helps us help you. 🎉.
 > - Continue using the project and give us feedback
 
 <!-- omit in toc -->
+
 ## Table of Contents
 
 - **[Code of Conduct](CONTRIBUTING.md#code-of-conduct)**
@@ -41,7 +38,6 @@ Your PR helps us help you. 🎉.
 - **[Styleguide](CONTRIBUTING.md#styleguide)**
 - **[Commit Messages](CONTRIBUTING.md#commit-messages)**
 - **[Join The Project Team](CONTRIBUTING.md#join-the-project-team)**
-
 
 ## Code of Conduct
 
@@ -73,6 +69,7 @@ We will then take care of the issue as soon as possible.
 ### Reporting Bugs
 
 <!-- omit in toc -->
+
 #### Before Submitting a Bug Report
 
 A good bug report shouldn't leave others needing to chase you up for more information.
@@ -91,6 +88,7 @@ Complete the following steps in advance to help us fix any potential bug as fast
 - Can you reliably reproduce the issue?
 
 <!-- omit in toc -->
+
 #### How Do I Submit a Good Bug Report?
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
@@ -107,7 +105,6 @@ After submitting your bug report, our team will take the following steps:
 - Attempt to reproduce the issue using the steps provided. If we cannot reproduce the issue, we may ask you for additional information and mark the issue as “discovery”.
 - If in triage we reproduce the issue, we will categorize it by importance where the issue will wait for **[someone](#your-first-code-contribution)** to implement the solution.
 
-
 ### Suggesting Features
 
 This section guides you through submitting an enhancement suggestion for Fantasy Statblocks,
@@ -116,6 +113,7 @@ Following these guidelines will help maintainers,
 and the community is to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
+
 #### Before Submitting an Enhancement
 
 - Make sure that you are using the latest version of Obsidian and that your installer version is 1.2.5 or newer.
@@ -124,6 +122,7 @@ and the community is to understand your suggestion and find related suggestions.
 - Additionally, find out whether your idea fits with the scope and aims of the project. It is up to you to make a strong case to convince the project's developers the merits of this feature. Keep in mind that we want features that will be useful to most of our users and not a small subset. If you are targeting a few users, consider writing an add-on/plugin library to be added in.
 
 <!-- omit in toc -->
+
 #### How Do I Submit a Good Enhancement Suggestion?
 
 Github Issues logs all of our feature requests.
@@ -133,7 +132,6 @@ Github Issues logs all of our feature requests.
 - State the current behavior, and explain what behavior you expected to see instead and why. You may also wish to mention any alternatives that you considered.
 - Consider including screenshots or animated GIFs to demonstrate the steps or highlight the relevant part of the project. Tools such as LiceCap (for macOS and Windows) or Silentcast and Byzanz (for Linux) may be helpful. (Note: this only applies if you are interacting with a GUI, not a CLI.)
 - Explain how the suggested enhancement would benefit most Fantasy Statblocks users. You may also want to provide examples of other projects that have successfully implemented similar features for inspiration.
-
 
 ### Your First Code Contribution
 
@@ -159,9 +157,7 @@ Alternatively, you can use the `npm run dev` command for a more streamlined work
 3. Run npm run dev in the source directory to build the `main.js` and `styles.css` files, and place them in the folder you specified in your `.env` file.
 4. Whenever you save changes, the dev script will automatically rebuild those files.
 
-
-#### Adding Features to your Plugins
-
+#### Adding Features to Your Plugins
 
 ### Improving The Documentation
 

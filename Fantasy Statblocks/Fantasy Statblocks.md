@@ -1,12 +1,12 @@
 ---
 aliases: [Fantasy Statblocks, Statblocks]
-cover: 
 description: "Fantasy Statblocks is a powerful table-top roleplaying plugin that allows you to easily create and manage statblock layouts within Obsidian."
-image: 
 permalink: statblocks
 publish: true
 tags: [Statblocks]
 ---
+
+# Fantasy Statblocks
 
 [Github Repo](https://github.com/valentine195/fantasy-statblocks/tree/gh-pages "Repo") [Changelog](https://github.com/valentine195/fantasy-statblocks/blob/gh-pages/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/fantasy-statblocks/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
 
@@ -33,46 +33,3 @@ A plugin which tracks initiatives and the status of the enemies and players duri
 ## Community Reviews
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/77vkDLU9xRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Map of Contents
-
-%% Begin Waypoint %%
-- **Beginner Topics**
-	- **[[Included Layouts]]**
-		- [[Basic 5e Layout]]
-		- [[Basic 13th Age Monster Layout]]
-		- [[Basic Fate Core Layout]]
-		- [[Basic Pathfinder 2e Layout]]
-		- [[Sample Basic Layout Addition]]
-	- [[Statblock Codeblocks]]
-	- [[Statblock Settings]]
-	- [[About Beginner Topics for Statblocks]]
-	- [[The Bestiary]]
-- **Intermediate Topics**
-	- **[[Custom CSS]]**
-		- [[Custom Variables]]
-		- [[Default Variables]]
-		- [[Frequently Asked Snippets and Tips for Statblocks]]
-		- **[[The Bootstrap]]**
-			- [[Container Groups]]
-			- [[Image-Container]]
-			- [[Property-Container]]
-			- [[Rules and Bar]]
-			- [[Statblock Container]]
-			- [[Statblock-Content]]
-			- [[Variables Redux]]
-	- [[Duplicate and Edit]]
-	- **[[The Layout Editor]]**
-		- [[Core Blocks]]
-		- [[Grouping Blocks]]
-		- [[Modular Blocks]]
-		- [[Scripting Blocks]]
-- **Proficient Topics**
-	- [[Ability Modifier Callbacks]]
-	- [[Adding a Default Layout]]
-	- [[Common Callback Functions]]
-	- [[Dice Callbacks]]
-	- [[Statblock API]]
-	- [[Using Dataview]]
-
-%% End Waypoint %%

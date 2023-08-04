@@ -5,7 +5,7 @@ description: "Inline dice rolling for Obsidian - Roll dice directly in your note
 image: 
 permalink: 
 publish: true
-tags: [Dice-Roller]
+tags: [Dice]
 ---
 
 [Github Repo](https://github.com/valentine195/obsidian-dice-roller "Repo") [Changelog](https://github.com/valentine195/obsidian-dice-roller/blob/799e72c12ae674672f31ed1d07b41d08fa6d3522/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/obsidian-dice-roller/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
@@ -35,36 +35,3 @@ For more complex calculations, lookup tables, averages, and other information, p
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wHA5gzPOPPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-## Map of Contents
-
-%% Begin Waypoint %%
-- **[[Beginner Topics]]**
-	- [[D.I.C.E]]
-	- [[Dice Roller Settings]]
-- **Intermediate Topics**
-	- [[Dice Conditions]]
-	- [[Dice Flags]]
-	- [[List Rollers]]
-	- **[[Modifiers]]**
-		- [[Custom Percent]]
-		- [[Drop Highest]]
-		- [[Drop Lowest]]
-		- [[Explode and Combine]]
-		- [[Explode]]
-		- [[Keep Highest]]
-		- [[Keep Lowest]]
-		- [[Make Unique]]
-		- [[Min-Max]]
-		- [[Re-roll]]
-		- [[Sort]]
-	- [[Dice-Mod]]
-	- [[Saving Results]]
-	- [[Section Rollers]]
-	- [[Table Rollers]]
-- **Proficient Topics**
-	- [[Dice Roller/Proficient Topics/Dataview in Dice Roller]]
-	- [[Dice Roller and Javascript]]
-	- [[Tag Rollers with Dataview]]
-
-%% End Waypoint %%

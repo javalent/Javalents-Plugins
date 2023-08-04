@@ -1,12 +1,12 @@
 ---
 aliases: [Installing a Plugin]
-description: "Learn the different ways you can install Javalent's plugins for Obsidian."
-image: 
-order: 2
+description: Learn the different ways you can install Javalent's plugins for Obsidian.
 permalink: plugins/installing
 publish: true
-tags: [Plugins/Requirements/Installation]
+tags: [Plugins/Installation]
 ---
+
+# Installing
 
 ## Option 1: Community Plugins
 

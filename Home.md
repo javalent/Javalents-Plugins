@@ -35,6 +35,6 @@ The plugins prefixed with ![Wand](https://raw.githubusercontent.com/valentine195
 
 >[!example] ** Popular Practical Plugins**
 > - [[Admonitions|Admonitions]] is a plugin that enables you to create visually appealing callouts that have the stability and functionality of a code block. You may come across some examples of these callouts on this website.
-> - [[Second Window|Image Window]] is a reliable way to display content on a second screen from Obsidian. While the core function is built-in to Obsidian, it has certain limitations that are not present in Image/Second Window.
+> - [[Small Plugins/Second Window|Image Window]] is a reliable way to display content on a second screen from Obsidian. While the core function is built-in to Obsidian, it has certain limitations that are not present in Image/Second Window.
 > - [[Markdown Attributes|Obsidian Markdown Attributes]] is a plugin that allows for a greater range of targeted CSS styling using markers like `{ .class }` and `{ id=example .myclass }` within notes.
 

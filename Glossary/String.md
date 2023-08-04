@@ -1,12 +1,17 @@
 ---
-aliases: [String, Plain Characters, Wrapped String]
-cover: 
-description: 
-image: 
+aliases:
+  - String
+  - Plain Characters
+  - Wrapped String
+description: This page explains how a String is used in CSS and YAML.
 permalink: glossary/string
 publish: true
-tags: [Glossary/YAML/String, Glossary/CSS/String]
+tags:
+  - Glossary/YAML
+  - Glossary/CSS
 ---
+
+# String
 
 ## CSS
 

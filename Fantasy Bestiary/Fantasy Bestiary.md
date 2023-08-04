@@ -1,11 +1,11 @@
 ---
-aliases: [Fantasy Bestiary]
-cover: 
-description: "Fantasy Bestiary"
-image: 
-permalink: 
-publish: true
-tags: [Bestiary]
+aliases:
+  - Fantasy Bestiary
+description: Fantasy Bestiary
+permalink: foundations
+publish: false
+tags:
+  - Bestiary
 ---
 
 > [!statblock] Under Construction with Caretaker Sutaris

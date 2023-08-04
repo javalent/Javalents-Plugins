@@ -1,12 +1,12 @@
 ---
 aliases: [Fuzzy Search, Fuzzy Searches]
-cover: 
 description: This page details what a fuzzy search is.
-image: 
 permalink: glossary/generic/fuzzy
 publish: true
 tags: [Glossary]
 ---
+
+# Fuzzy Search
 
 Fuzzy search is a technique used to find approximate matches to a given search query, even if the query and the target do not match exactly.
 

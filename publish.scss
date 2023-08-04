@@ -1,15 +1,2 @@
-@use '../../EbullientWorksTheme/dist/publish.css' as *;
-
 // Add your Custom Styles Below
 @use '.obsidian/snippets/dev/_publish-forward.scss' as *;
-
-// And Custom One Liners
-
-.custom-span {
-  background: rgb(var(--callout-color));
-  color: var(--text-on-accent);
-  font-family: var(--font-monospace);
-  font-weight: 900;
-  padding-left: 8px;
-  padding-right: 8px;
-}

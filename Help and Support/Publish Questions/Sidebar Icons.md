@@ -1,12 +1,12 @@
 ---
 aliases: [Publish icons, I like your Sidebar Icons]
-cover: 
 description: "This Page describes how to achieve the Sidebar Icons that our Publish Site uses."
-image: 
 permalink: publish/xCSS/
 publish: true
-tags: Publish/XCSS
+tags: [xCSS/Publish]
 ---
+
+# Sidebar Icons
 
 ## Recreating the "animated" Sidebar Icons
 

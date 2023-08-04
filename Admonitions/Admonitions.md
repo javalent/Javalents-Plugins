@@ -36,25 +36,3 @@ Here are the features that Admonitions can offer to enhance your note-taking exp
 ### Community Reviews
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TqYQ0kA1yAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Map of Contents
-
-%% Begin Waypoint %%
-- **_Maintenance**
-	- [[Admonitions Todo]]
-	- [[Tesvas.canvas]]
-- **[[Beginner Topics]]**
-	- [[Admonition Options]]
-	- [[Admonition Commands]]
-	- [[Admonition Settings]]
-	- [[Types of Admonitions]]
-	- [[Create an Admonition]]
-- **Intermediate Topics**
-	- [[Custom Admonitions CSS]]
-	- [[JSON Specification]]
-- **[[Proficient Topics]]**
-	- [[Admonitions API]]
-	- [[Localizing Admonitions]]
-	- [[Publish.js]]
-
-%% End Waypoint %%

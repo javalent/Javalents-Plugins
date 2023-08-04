@@ -1,12 +1,12 @@
 ---
 aliases: [Reporting a Bug]
-cover: 
 description: "This page details how to report a bug."
-image: 
 permalink: support/report-bug
 publish: true
 tags: [Support/Report-Bug]
 ---
+
+# Reporting a Bug
 
 ## Report A Bug Overview
 

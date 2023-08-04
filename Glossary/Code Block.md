@@ -1,12 +1,12 @@
 ---
 aliases: [Codeblock, Code Block, Code-Block]
-cover: 
 description: "A code block is a section of code that is displayed in a monospaced font and is usually surrounded by a contrasting background to distinguish it from the rest of the text."
-image: 
 permalink: glossary/codeblock
 publish: true
-tags: [Glossary/Markdown/Codeblock]
+tags: [Glossary/Markdown]
 ---
+
+# Code Block
 
 In Markdown, a code block is a section of code that is displayed in a monospaced font and is usually surrounded by a contrasting background to distinguish it from the rest of the text.
 

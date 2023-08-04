@@ -1,12 +1,12 @@
 ---
 aliases: [Documentation]
-cover: 
-description: "Want to know how you can contribute to Javalent by helping with Documentation? Check this out."
-image: 
+description: Want to know how you can contribute to Javalent by helping with
 permalink: support/contributing/documentation
 publish: true
 tags: [Support/Documentation]
 ---
+
+# Documentation
 
 - Do you see any areas of documentation that are unclear?
 - Do you think there is a section that you want to expand on?

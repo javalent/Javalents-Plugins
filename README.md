@@ -1,3 +1,6 @@
+---
+publish:
+---
 # Javalents Plugins
 
 A Backup Repository for Javalents Plugins's documentation site at https://plugins.javalent.com/. 

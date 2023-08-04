@@ -1,12 +1,16 @@
 ---
-aliases: [Yet Another Markup Language, YAML Ain't Markup Language, YAML]
-cover: 
-description: 
-image: 
+aliases:
+  - Yet Another Markup Language
+  - YAML Ain't Markup Language
+  - YAML
+description: This page details what YAML is.
 permalink: glossary/yaml
 publish: true
-tags: [Glossary/YAML]
+tags:
+  - Glossary/YAML
 ---
+
+# YAML
 
 YAML is a way to write down information in a way that is easy for both humans and computers to understand. It's often used for things like configuration files, which tell a program how to work, or for storing data that needs to be shared between different programs. 
 

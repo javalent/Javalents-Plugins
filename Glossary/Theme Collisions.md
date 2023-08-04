@@ -1,12 +1,14 @@
 ---
-aliases: [Theme Collisions]
-cover: 
-description: 
-image: 
+aliases:
+  - Theme Collisions
+description: This page details what a Theme Collision is.
 permalink: glossary/theme-collisions
 publish: true
-tags: [Glossary/CSS]
+tags:
+  - Glossary/CSS
 ---
+
+# Theme Collisions
 
 A "theme collision" refers to a situation where the CSS styles defined in a theme and a plugin overlap or conflict with each other. When this happens, the appearance of the UI elements affected by the conflicting styles may not be as intended, and the user may experience visual bugs or glitches. 
 

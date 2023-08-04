@@ -1,12 +1,12 @@
 ---
 aliases: [Uninstalling a Plugin]
 description: "Learn how to safely and completely remove plugins from your Obsidian vault with this step-by-step guide on uninstalling."
-image: 
-order: 4
 permalink: plugins/uninstalling
 publish: true
-tags: [Plugins/Requirements/Uninstalling]
+tags: [Plugins/Uninstalling]
 ---
+
+# Uninstalling
 
 >[!red] Export Your Layouts!
 > If you are uninstalling [[Fantasy Statblocks|Fantasy Statblocks]] or [[Admonitions|Admonition]] to reinstall later, and you have made or procured custom layouts, please export them from the settings menu before uninstalling the plugin. 

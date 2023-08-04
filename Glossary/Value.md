@@ -1,12 +1,14 @@
 ---
-aliases: [Value]
-cover: 
-description: 
-image: 
+aliases:
+  - Value
+description: This page details what a value is.
 permalink: glossary/value
 publish: true
-tags: [Glossary/YAML/Value]
+tags:
+  - Glossary/YAML
 ---
+
+# Value
 
 In YAML, a value is defined as the data associated with a Key. It can be a scalar value, which is a single value like a number, string, or boolean, or a complex value like a list-value or a map.
 

@@ -1,12 +1,11 @@
 ---
 aliases: [Leaflet, Obsidian Leaflet]
-cover: 
 description: "Obsidian plugin for adding interactive maps to notes using the Leaflet.js library"
-image: 
 permalink: Leaflet
 publish: true
 tags: [Leaflet]
 ---
+
 
 [GitHub Repo](https://github.com/valentine195/obsidian-leaflet-plugin "Repo") [Changelog](https://github.com/valentine195/obsidian-leaflet-plugin/blob/b63845f49c34ffda6816598eb415f348f4814d75/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/obsidian-leaflet-plugin/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
 
@@ -48,26 +47,26 @@ Obsidian Leaflet is an easy-to-use plugin that lets you add interactive maps to 
 
 %% Begin Waypoint %%
 - **Advanced Topics**
-	- [[Leaflet/Proficient Topics/Dataview in Leaflet]]
-	- [[Leaflet/Proficient Topics/Folder Parameters]]
-	- [[Leaflet/Proficient Topics/GeoJSON]]
-	- [[Leaflet/Proficient Topics/GPX]]
+	- [[Leaflet/Dataview in Leaflet]]
+	- [[Leaflet/Folder Parameters]]
+	- [[Leaflet/GeoJSON]]
+	- [[Leaflet/GPX]]
 - **Beginner Topics**
-	- [[Bounds]]
-	- [[Leaflet Codeblock]]
-	- [[Leaflet Settings]]
+	- [[Leaflet/Bounds]]
+	- [[Leaflet/Leaflet Codeblock]]
+	- [[Leaflet/Leaflet Settings]]
 - **Intermediate Topics**
-	- [[Coordinates]]
-	- [[Dark Mode in Leaflet]]
-	- [[Distances]]
-	- [[Image Maps]]
-	- [[Initial Zoom Level]]
-	- [[Map IDs]]
-	- [[Leaflet/Intermediate Topics/Map Overlays]]
-	- [[Markers]]
-	- [[Overlays with Images]]
-	- [[Overlays]]
-	- [[Real World Maps]]
-	- [[Unit and Scale]]
+	- [[Leaflet/Coordinates]]
+	- [[Leaflet/Dark Mode in Leaflet]]
+	- [[Leaflet/Distances]]
+	- [[Leaflet/Image Maps]]
+	- [[Leaflet/Initial Zoom Level]]
+	- [[Leaflet/Map IDs]]
+	- [[Leaflet/Map Overlays]]
+	- [[Leaflet/Markers]]
+	- [[Leaflet/Overlays with Images]]
+	- [[Leaflet/Overlays]]
+	- [[Leaflet/Real World Maps]]
+	- [[Leaflet/Unit and Scale]]
 
 %% End Waypoint %%

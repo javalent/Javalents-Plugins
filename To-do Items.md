@@ -1,11 +1,10 @@
 ---
-aliases: [To-do, Javalent's Plugins To-do]
-cover: 
-description: [This Page details that items that we consider work in progress, and plan to update soon.]
-image: 
-permalink: 
+aliases:
+  - To-do
+  - Javalent's Plugins To-do
 publish: false
-tags: [Todo]
+tags:
+  - Todo
 ---
 
 

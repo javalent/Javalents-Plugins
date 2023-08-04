@@ -1,11 +1,13 @@
 ---
-aliases: [Obsidian Markdown Attributes]
-cover: 
-description: "Markdown Attributes is a plugin that adds pandoc-style markdown attributes to Obsidian."
-image: 
+aliases:
+  - Obsidian Markdown Attributes
+  - Markdown Attributes
+description: Markdown Attributes is a plugin that adds pandoc-style markdown
+  attributes to Obsidian.
 permalink: attributes
 publish: true
-tags: [Markdown-Attributes]
+tags:
+  - Attributes
 ---
 
 [GitHub Repo](https://github.com/valentine195/obsidian-markdown-attributes "Repo") [Changelog](https://github.com/valentine195/obsidian-markdown-attributes/blob/9b9d20211e6cafd4aa90066e65de51e14c27ecda/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/obsidian-markdown-attributes/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
@@ -42,9 +44,9 @@ See the map of content below, or the navigation bar to the left, for examples on
 ## Map of Content
 
 %% Begin Waypoint %%
-- **[[Attribute Block]]**
-- **[[Organization]]**
-- **[[Typography]]**
+- **[[Markdown Attributes/Attribute Blocks]]**
+- **[[Markdown Attributes/Organization Classes]]**
+- **[[Markdown Attributes/Typography Classes]]**
 %% End Waypoint %%
 
 
