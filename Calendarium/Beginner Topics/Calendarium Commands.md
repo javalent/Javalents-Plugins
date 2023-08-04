@@ -1,0 +1,34 @@
+---
+aliases: Calendarium Commands
+cover: 
+description: 
+image: 
+permalink: calendarium/command-palette
+publish: true
+tags: Command-Palette/Calendarium
+---
+
+>[!warning] This page is under construction due to a Calendar rewrite.
+
+
+## Command Palette Options
+
+If you have the [Command Palette](https://help.obsidian.md/Plugins/Command+palette) core plugin enabled, you can access the following commands:
+
+### Open Calendarium
+
+This command opens a calendar view in the side panes, allowing you to conveniently interact with your calendar.
+
+### Open Large Calendarium
+
+> [!warning] This functionality is currently disabled in the current BRAT release.
+
+This command would typically open a larger calendar view in the center pane. 
+
+### Rescan Events
+
+Triggering this command prompts the plugin to rescan all notes across _all_ calendars for any events, ensuring that the latest event data is captured and reflected in the calendar.
+
+### Rescan Events for Calendar
+
+Execute this command to initiate a rescan of all notes specifically for the chosen calendar. By doing so, the plugin updates the calendar with any new or modified events associated with that calendar.

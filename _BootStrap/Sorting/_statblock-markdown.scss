@@ -1,0 +1,13 @@
+.statblock.yourlayoutname {
+  & .statblock-markdown {
+    display: inline;
+
+    &:global(p) {
+      display: inline;
+    }
+
+    &:global(p ~ p) {
+      display: inline-block;
+    }
+  }
+}

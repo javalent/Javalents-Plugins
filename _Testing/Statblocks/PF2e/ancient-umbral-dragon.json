@@ -1,0 +1,312 @@
+{
+  "name": "Ancient Umbral Dragon",
+  "isNpc": false,
+  "foundIn": [
+    "Impossible Lands"
+  ],
+  "otherSources": {
+    "Expanded": [
+      "LOIL|323"
+    ]
+  },
+  "source": "B2",
+  "page": 97,
+  "level": 20,
+  "traits": [
+    "rare",
+    "ne",
+    "gargantuan",
+    "dragon",
+    "shadow"
+  ],
+  "perception": {
+    "std": 36
+  },
+  "senses": [
+    {
+      "name": "greater darkvision"
+    },
+    {
+      "type": "imprecise",
+      "name": "scent",
+      "range": 60
+    },
+    {
+      "type": "imprecise",
+      "name": "{@ability tremorsense}",
+      "range": 60
+    }
+  ],
+  "languages": {
+    "languages": [
+      "common",
+      "daemonic",
+      "draconic",
+      "necril",
+      "shadowtongue"
+    ]
+  },
+  "skills": {
+    "acrobatics": {
+      "std": 33
+    },
+    "athletics": {
+      "std": 38
+    },
+    "deception": {
+      "std": 34
+    },
+    "intimidation": {
+      "std": 36
+    },
+    "nature": {
+      "std": 34
+    },
+    "stealth": {
+      "std": 35
+    },
+    "survival": {
+      "std": 34
+    }
+  },
+  "abilityMods": {
+    "str": 10,
+    "dex": 5,
+    "con": 7,
+    "int": 6,
+    "wis": 8,
+    "cha": 6
+  },
+  "speed": {
+    "walk": 60,
+    "fly": 200
+  },
+  "attacks": [
+    {
+      "range": "Melee",
+      "name": "jaws",
+      "attack": 38,
+      "traits": [
+        "negative",
+        "magical",
+        "reach <20 feet>"
+      ],
+      "effects": [
+        "drain vigor"
+      ],
+      "damage": "{@damage 4d10+18} piercing plus {@damage 4d6} negative and drain vigor",
+      "types": [
+        "negative",
+        "piercing"
+      ]
+    },
+    {
+      "range": "Melee",
+      "name": "claw",
+      "attack": 38,
+      "traits": [
+        "agile magical",
+        "reach <15 feet>"
+      ],
+      "damage": "{@damage 4d10+18} slashing",
+      "types": [
+        "slashing"
+      ]
+    },
+    {
+      "range": "Melee",
+      "name": "tail",
+      "attack": 36,
+      "traits": [
+        "magical",
+        "reach <25 feet>"
+      ],
+      "damage": "{@damage 4d12+18} slashing",
+      "types": [
+        "slashing"
+      ]
+    },
+    {
+      "range": "Melee",
+      "name": "wing",
+      "attack": 36,
+      "traits": [
+        "agile",
+        "magical reach <20 feet>"
+      ],
+      "damage": "{@damage 3d10+18} slashing",
+      "types": [
+        "slashing"
+      ]
+    }
+  ],
+  "spellcasting": [
+    {
+      "name": "Primal Innate",
+      "type": "Innate",
+      "tradition": "primal",
+      "DC": 42,
+      "entry": {
+        "0": {
+          "level": 10,
+          "spells": [
+            {
+              "name": "detect magic"
+            }
+          ]
+        },
+        "8": {
+          "spells": [
+            {
+              "name": "vampiric exsanguination",
+              "amount": "at will"
+            }
+          ]
+        },
+        "9": {
+          "spells": [
+            {
+              "name": "darkness",
+              "amount": "at will"
+            },
+            {
+              "name": "finger of death"
+            }
+          ]
+        },
+        "10": {
+          "spells": [
+            {
+              "name": "massacre"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "abilities": {
+    "mid": [
+      {
+        "traits": [
+          "aura",
+          "emotion",
+          "fear",
+          "mental"
+        ],
+        "entries": [
+          "90 feet, DC 40."
+        ],
+        "name": "Frightful Presence",
+        "generic": {
+          "tag": "ability"
+        }
+      },
+      {
+        "activity": {
+          "number": 1,
+          "unit": "reaction"
+        },
+        "entries": [
+          "Jaws only."
+        ],
+        "name": "Attack of Opportunity",
+        "generic": {
+          "tag": "ability"
+        }
+      }
+    ],
+    "bot": [
+      {
+        "activity": {
+          "number": 2,
+          "unit": "action"
+        },
+        "entries": [
+          "The umbral dragon breathes in one of two ways. They can't use Breath Weapon again for {@dice 1d4} rounds.",
+          {
+            "type": "list",
+            "items": [
+              "{@bold Negative} (necromancy, negative, primal) The dragon breathes a blast of darkness in a 50-foot cone that deals {@damage 21d6} negative damage (DC 42 basic Reflex save). Undead creatures take {@damage 25d6} force damage instead of the negative damage.",
+              {
+                "type": "item",
+                "entries": [
+                  "{@bold Shadows} (necromancy, primal, shadow) The dragon breathes a blast of shadows in a 50-foot cone. Each creature within the cone must attempt a DC 42 Fortitude save.",
+                  {
+                    "type": "successDegree",
+                    "entries": {
+                      "Critical Success": "The creature is unaffected.",
+                      "Success": "The creature is {@condition enfeebled 3} for 1 round.",
+                      "Failure": "The creature is {@condition enfeebled 3} for 1 minute.",
+                      "Critical Failure": "The creature is {@condition enfeebled 3} for 1 minute and {@condition blinded} for 1 round."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "name": "Breath Weapon"
+      },
+      {
+        "activity": {
+          "number": 2,
+          "unit": "action"
+        },
+        "entries": [
+          "The dragon makes two claw {@action Strike||Strikes} and one wing {@action Strike} in any order."
+        ],
+        "name": "Draconic Frenzy"
+      },
+      {
+        "entries": [
+          "The dragon recharges their Breath Weapon whenever they score a critical hit with a {@action Strike}."
+        ],
+        "name": "Draconic Momentum"
+      },
+      {
+        "traits": [
+          "primal",
+          "necromancy"
+        ],
+        "entries": [
+          "When the dragon deals negative damage to a living creature with its jaws {@action Strike}, the umbral dragon gains 20 temporary Hit Points and the creature must succeed at a DC 41 Fortitude save or become {@condition enfeebled 2}. Further damage dealt by the dragon's jaws {@action Strike} increases the {@condition enfeebled} condition value by 2 on a failed save, to a maximum of {@condition enfeebled 4}."
+        ],
+        "name": "Drain Vigor"
+      },
+      {
+        "entries": [
+          "An umbral dragon's {@action Strike||Strikes} affect incorporeal creatures with the effects of a ghost touch property rune, and an umbral dragon's jaws deal an additional {@damage 8d6} force damage to undead."
+        ],
+        "name": "Ghost Bane"
+      }
+    ]
+  },
+  "hasImages": true,
+  "defenses": {
+    "ac": {
+      "std": 45
+    },
+    "savingThrows": {
+      "fort": {
+        "std": 35
+      },
+      "ref": {
+        "std": 33
+      },
+      "will": {
+        "std": 38
+      }
+    },
+    "hp": [
+      {
+        "hp": 375,
+        "abilities": null
+      }
+    ],
+    "immunities": [
+      "negative",
+      "paralyzed",
+      "sleep"
+    ]
+  }
+}

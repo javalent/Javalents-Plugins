@@ -1,0 +1,108 @@
+.statblock.yourlayoutname {
+  // Default Variables
+  --statblock-primary-color: #7a200d;
+  --statblock-rule-color: #922610;
+  --statblock-background-color: #fdf1dc;
+  --statblock-bar-color: #e69a28;
+  --statblock-bar-border-size: 1px;
+  --statblock-bar-border-color: #000;
+  --statblock-image-width: 75px;
+  --statblock-image-height: 75px;
+  --statblock-image-border-size: 2px;
+  --statblock-image-border-color: var(--statblock-primary-color);
+  --statblock-border-size: 1px;
+  --statblock-border-color: #ddd;
+  --statblock-box-shadow-color: #ddd;
+  --statblock-box-shadow-x-offset: 0;
+  --statblock-box-shadow-y-offset: 0;
+  --statblock-box-shadow-blur: 1.5em;
+  --statblock-font-color: var(--statblock-primary-color);
+  --statblock-font-weight: 700;
+  --statblock-content-font: "Noto Sans", "Myriad Pro", Calibri, Helvetica,
+  Arial, sans-serif;
+  --statblock-content-font-size: 14px;
+  --statblock-heading-font: "Libre Baskerville", "Lora", "Calisto MT",
+  "Bookman Old Style", Bookman, "Goudy Old Style", Garamond,
+  "Hoefler Text", "Bitstream Charter", Georgia, serif;
+  --statblock-heading-font-color: var(--statblock-font-color);
+  --statblock-heading-font-size: 23px;
+  --statblock-heading-font-variant: small-caps;
+  --statblock-heading-font-weight: var(--statblock-font-weight);
+  --statblock-heading-line-height: inherit;
+  --statblock-property-line-height: 1.4;
+  --statblock-property-font-color: var(--statblock-font-color);
+  --statblock-property-name-font-color: var(--statblock-font-color);
+  --statblock-property-name-font-weight: bold;
+  --statblock-section-heading-border-size: 1px;
+  --statblock-section-heading-border-color: var(--statblock-primary-color);
+  --statblock-section-heading-font-color: var(--statblock-font-color);
+  --statblock-section-heading-font-size: 21px;
+  --statblock-section-heading-font-variant: small-caps;
+  --statblock-section-heading-font-weight: normal;
+  --statblock-saves-line-height: 1.4;
+  --statblock-spells-font-style: italic;
+  --statblock-subheading-font-size: 12px;
+  --statblock-subheading-font-style: italic;
+  --statblock-subheading-font-weight: normal;
+  --statblock-table-header-font-weight: bold;
+  --statblock-traits-font-weight: bold;
+  --statblock-traits-font-style: italic;
+
+  // Any Custom Dash Variables Here
+
+}
+
+// Feel Free to throw some variables into theme-dark
+// or theme-light if you want to change it when the obsidian theme changes
+.theme-dark {
+  & .statblock.yourlayoutname {
+
+  }
+
+
+  .theme-light {
+    & .statblock.yourlayoutname {
+
+    }
+  }
+}
+
+// Working with sass/scss? You can throw variables below
+// or at the top of each file. I've included some colors
+// here as an example.
+
+// From Book Cover Pathfinder 2e: Secrets of Magic
+$slate-gray: rgba(95, 131, 140, 1);
+$garnet: rgba(115, 42, 43, 1);
+$ecru: rgba(202, 181, 141, 1);
+$black: rgba(0, 0, 0, 1);
+$cadet-gray: rgba(128, 146, 150, 1);
+$black-2: rgba(0, 0, 0, 1);
+$raisin-black: rgba(41, 33, 33, 1);
+$raw-umber: rgba(134, 87, 58, 1);
+$gunmetal: rgba(34, 56, 57, 1);
+$charcoal: rgba(58, 74, 83, 1);
+
+// Core Rulebook: Shadowrun - Arsenal
+$midnight-green: rgba(18, 60, 72, 1);
+$midnight-green-2: rgba(16, 90, 111, 1);
+$gunmetal: rgba(20, 44, 53, 1);
+$blue-munsell: rgba(37, 131, 152, 1);
+$midnight-green-3: rgba(42, 97, 113, 1);
+$rosy-brown: rgba(187, 166, 159, 1);
+$slate-gray: rgba(110, 126, 131, 1);
+$sky-blue: rgba(101, 192, 213, 1);
+$eerie-black: rgba(34, 35, 36, 1);
+$platinum: rgba(232, 230, 227, 1);
+
+// 13th Age 1E Core Rulebook
+$seal-brown: rgba(87, 37, 16, 1);
+$licorice: rgba(39, 21, 10, 1);
+$chestnut: rgba(145, 74, 49, 1);
+$bole: rgba(107, 64, 46, 1);
+$licorice-2: rgba(33, 12, 8, 1);
+$licorice-3: rgba(33, 9, 2, 1);
+$tan: rgba(220, 191, 152, 1);
+$caf-noir: rgba(59, 41, 19, 1);
+$black-bean: rgba(57, 16, 7, 1);
+$cambridge-blue: rgba(108, 152, 126, 1);

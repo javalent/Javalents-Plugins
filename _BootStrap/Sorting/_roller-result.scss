@@ -1,0 +1,11 @@
+
+.statblock.layoutname {
+
+  & .dice-roller-result {
+    font-weight: var(--statblock-font-weight);
+  }
+
+  & .roller-result {
+    font-weight: var(--statblock-font-weight);
+  }
+}

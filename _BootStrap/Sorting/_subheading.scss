@@ -1,0 +1,8 @@
+.statblock.layoutname {
+  & .subheading {
+    font-weight: var(--statblock-subheading-font-weight);
+    font-style: var(--statblock-subheading-font-style);
+    font-size: var(--statblock-subheading-font-size);
+    margin: 0;
+  }
+}

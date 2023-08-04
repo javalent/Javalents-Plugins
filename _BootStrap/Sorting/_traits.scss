@@ -1,0 +1,11 @@
+// property classname property-name
+// Example: property-rare_04.
+.statblock.layoutname {
+  & .saves-name {
+    margin: 0;
+    margin-right: 0.25em;
+    display: inline;
+    font-weight: var(--statblock-traits-font-weight);
+    font-style: var(--statblock-traits-font-style);
+  }
+}

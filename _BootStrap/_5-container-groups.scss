@@ -1,0 +1,62 @@
+.statblock.yourlayoutname {
+  & .statblock-item-container {
+    margin-bottom: .25rem;
+
+    & .statblock-item-inline {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    // Container Groups
+    // A
+    &.group-container {
+
+    }
+
+    // B
+    &.heading-container {
+
+    }
+
+    // C
+    &.image-container {
+
+    }
+
+    // D
+    &.inline-container {
+
+    }
+
+    // E
+    &.property-container {
+
+    }
+
+    // F
+    &.rule-container {
+
+    }
+
+    // G
+    &.statblock-trait-prop {
+
+    }
+
+    // H
+    &.subheading-container {
+
+    }
+
+    // I
+    &.traits-container {
+
+    }
+  }
+
+  & .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
