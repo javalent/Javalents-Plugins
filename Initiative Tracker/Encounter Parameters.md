@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Encounter Parameters
-  - Parameters in Encounters
+aliases: [Encounter Parameters, Parameters in Encounters]
 description: This page details the encounter parameters you can use for players
-  and characters within Initiative Tracker.
 permalink: it/encounter/parameters
 publish: true
-tags:
-  - IT/Encounters
+tags: [IT/Encounters]
 ---
 
-# Encounter Parameters
+# Encounter parameters
 
 Each encounter can be customized using the following parameters:
 
@@ -28,7 +24,7 @@ creatures: array # Array of creatures to include in the encounter. Optional.
 
 The `name` parameter specifies an optional name for the encounter. This name will be displayed in Preview mode as well as in the Initiative Tracker when the encounter is launched.
 
-## Roll HP
+## Roll hp
 
 The `rollHP` parameter can be used to override the global Roll HP setting. If a creature in the encounter has the `hit_dice` property set, it will roll for HP when being added to the encounter.
 

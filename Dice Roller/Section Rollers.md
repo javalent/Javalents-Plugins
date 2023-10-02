@@ -6,9 +6,9 @@ publish: true
 tags: [Dice/Rollers]
 ---
 
-# Section Rollers
+# Section rollers
 
-## Section Rollers Overview
+## Section rollers overview
 
 The Section Roller is a feature that allows you to randomly select a block of text from a note or notes using a link to that note or a tag.
 
@@ -35,7 +35,7 @@ The Section Roller will return a randomly selected section from the specified no
 | `` `dice: [[Note]]` `` | Returns a single random block from `Note` |
 | `` `dice: 3d[[Note]]` `` | Returns 3 random blocks from `Note` |
 
-### Block Types
+### Block types
 
 In Obsidian, there are different "types" of blocks. By default, the plugin excludes `thematicBreak` and `yaml` blocks from the results of a block roll.
 
@@ -69,7 +69,7 @@ You can further filter down the returned results by specifying a specific headin
 
 `` `dice: [[Note]]|heading-2` ``
 
-### Line Rollers
+### Line rollers
 
 You can also roll a random line from any note using the following syntax:
 
@@ -77,7 +77,7 @@ You can also roll a random line from any note using the following syntax:
 
 > [!Note] The plugin will filter out zero-length lines. However, depending on the content of your notes, you may still get "blank" lines in the result.
 
-#### Line Rollers with Defined Spaces
+#### Line rollers with defined spaces
 
 You can combine rollers with defined spaces in between by using a HTML tag to create spaces. Below, we show the example submitted by *`Mikhail#2095`* 🎉 that creates custom spacing between names. 
 

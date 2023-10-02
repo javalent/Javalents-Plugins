@@ -1,12 +1,12 @@
 ---
 aliases: [Dice Roller]
-cover: 
 description: "Inline dice rolling for Obsidian - Roll dice directly in your notes and see the results instantaneously."
-image: 
 permalink: 
 publish: true
 tags: [Dice]
 ---
+
+# Dice roller
 
 [Github Repo](https://github.com/valentine195/obsidian-dice-roller "Repo") [Changelog](https://github.com/valentine195/obsidian-dice-roller/blob/799e72c12ae674672f31ed1d07b41d08fa6d3522/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/obsidian-dice-roller/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
 
@@ -14,7 +14,7 @@ tags: [Dice]
 
 Inline dice rolling for [Obsidian](http://obsidian.md "Obsidian"). - Roll dice directly in your notes and see the results in preview mode. Click to re-roll and modify your formula as needed.
 
-## Dice Roller Quickstart
+## Dice roller quickstart
 
 To render your dice in live preview or reader mode, insert an inline code block that contains your formula (e.g., `dice: 1d20` or `dice: 27d3`) while in source mode or live preview mode. Clicking on the result will allow you to re-roll the dice.
 
@@ -28,7 +28,7 @@ For more complex calculations, lookup tables, averages, and other information, p
 
 ---
 
-## Community Reviews
+## Community reviews
 
 <div class="#pretty-vid">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GDbuo9YtSw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -10,7 +10,7 @@ tags: [Glossary]
 
 When working with any of Javalents' Plugins, you may come across certain terminology that has multiple meanings in the English Language. This page section been created to define what those terms mean in the context of these plugins.
 
-## Map of Contents
+## Map of contents
 
 %% Begin Waypoint %%
 - [[Breaking Change]]

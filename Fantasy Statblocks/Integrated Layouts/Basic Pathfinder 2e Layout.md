@@ -6,18 +6,18 @@ publish: true
 tags: [Statblocks/Layout/PF2e]
 ---
 
-# Basic Pathfinder 2e Layout
+# Basic pathfinder 2e layout
 
 This page provides a basic code block for the Pathfinder 2e layout included within Fantasy Statblocks.
 
 The layout includes all the essential [[Key|Key]] information needed to create a creature, now it is up to you and your imagination to do the rest. Make it's abilities, attacks, and skills. Give it spells, or an image. Turn your favorite character into a statblock, or even the building across the street.
 
-## Sample Image
+## Sample image
 
 >[!screenshot]- Screenshot of a Seething Umbral Dragon
 > ![Seething Umbral Dragon](https://github.com/valentine195/fantasy-statblocks/blob/gh-pages/images/statblock/pf2e.png?raw=true)
 
-### Seething Umbral Dragon Codeblock
+### Seething umbral dragon codeblock
 
 > [!code]- The Filled Codeblock
 > ````yaml
@@ -81,7 +81,7 @@ The layout includes all the essential [[Key|Key]] information needed to create a
 > ```
 > ````
 
-### Explanatory Code Block
+### Explanatory code block
 
 > [!code]- Explanation of What Each Line Needs for Formatting
 > ````yaml
@@ -159,7 +159,7 @@ The layout includes all the essential [[Key|Key]] information needed to create a
 > ```
 > ````
 
-### Empty Code Block
+### Empty code block
 
 > [!code]- An Empty Codeblock for Pathfinder 2e
 > ````yaml

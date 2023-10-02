@@ -6,15 +6,15 @@ publish: true
 tags: [xCSS/Publish]
 ---
 
-# Sidebar Icons
+# Sidebar icons
 
-## Recreating the "animated" Sidebar Icons
+## Recreating the "animated" sidebar icons
 
 This is the current SCSS code to get the Sidebar Icon styling that we have on our site.
 
 The Icons are capped to 15px by 15px.
 
-### Removing Old Dropdown Arrows
+### Removing old dropdown arrows
 
 ```scss
 // Sets Proper Padding for all screen sizes
@@ -42,7 +42,7 @@ The Icons are capped to 15px by 15px.
 }
 ```
 
-### Adding New Icons
+### Adding new icons
 
 ```scss
 // Screen Size Parameter

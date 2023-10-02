@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Initiative Tracker
+aliases: [Initiative Tracker]
 description: This is a page about the Initiative Tracker plugin for Obsidian, a
-  tool used to manage initiative and turn order during combat encounters in
-  tabletop role playing games.
 permalink: it
 publish: true
-tags:
-  - IT
+tags: [IT]
 ---
+
+# Initiative tracker
 
 [Github Repo](https://github.com/valentine195/initiative-tracker "Repo") [Changelog](https://github.com/valentine195/initiative-tracker/blob/master/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/initiative-tracker/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc" "Issues")
 
@@ -35,7 +33,7 @@ The Initiative Tracker plugin for [Obsidian](https://obsidian.md/) allows you 
 -   Increase/decrease numbered statuses as needed
 -   Encounter builder to help organize and plan combat encounters.
 
-## Community Reviews
+## Community reviews
 
 <div class="#pretty-vid">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wlt5lUvZv8U?start=125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -43,13 +41,13 @@ The Initiative Tracker plugin for [Obsidian](https://obsidian.md/) allows you 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yXBemgZWdr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-## Map of Contents
+## Map of contents
 
 %% Begin Waypoint %%
 - **Advanced Topics**
-	- [[Initiative Tracker/Encounter Builder API]]
-	- [[Initiative Tracker/Leaflet Integration]]
-	- [[Initiative Tracker/Tracker API]]
+	- [[Initiative Tracker/Advanced Topics/Encounter Builder API]]
+	- [[Initiative Tracker/Advanced Topics/Leaflet Integration 1]]
+	- [[Initiative Tracker/Advanced Topics/API]]
 - **Beginner Topics**
 	- [[Initiative Tracker/Creatures and Encounters]]
 	- [[Initiative Tracker/Encounter Parameters]]
@@ -57,10 +55,10 @@ The Initiative Tracker plugin for [Obsidian](https://obsidian.md/) allows you 
 	- [[Initiative Tracker/Launching Encounters]]
 	- [[Initiative Tracker/Multiple Encounters]]
 	- [[Initiative Tracker/Statuses]]
-	- [[Initiative Tracker/Tracker Quickstart]]
-	- [[Initiative Tracker/Tracker Settings]]
+	- [[Initiative Tracker/Quickstart]]
+	- [[Initiative Tracker/Settings]]
 - **Intermediate Topics**
-	- [[Initiative Tracker/Custom Formulas]]
+	- [[Initiative Tracker/Advanced Topics/Custom Formulas]]
 	- [[Initiative Tracker/Encounter Builder]]
 	- [[Initiative Tracker/Encounter Tables]]
 

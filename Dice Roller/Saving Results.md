@@ -6,7 +6,7 @@ publish: true
 tags: [Dice/Saving]
 ---
 
-# Saving Results
+# Saving results
 
 [[Dice Roller|Dice Roller]] > *You Are Here* 
 

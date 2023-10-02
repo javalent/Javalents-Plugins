@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Prominent Bookmarked Files
+aliases: [Prominent Bookmarked Files]
 description: Wish your notes were a little bit more on display? Now you can with
-  Prominent Bookmarked Files for Obsidian!
 permalink: bookmarked
 publish: true
-tags:
-  - Bookmarked
+tags: [Bookmarked]
 ---
 
+# Prominent bookmarked files
 
 [GitHub Repo](https://github.com/valentine195/obsidian-prominent-starred-files "Repo") [Changelog](https://github.com/valentine195/obsidian-prominent-starred-files/blob/c20b10cf110192c23fd198158bf5c8e1bd76b8ac/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/obsidian-prominent-starred-files/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
 
@@ -25,13 +23,13 @@ Wish your notes were a little bit more on display? Now you can! Make those Bookm
 > - Feature Requests **will not** be worked.
 > #Status/Maintenance 
 
-## Core Plugin Requirements
+## Core plugin requirements
 
 This plugin requires that the Core Plugin, [Files](https://help.obsidian.md/Plugins/File+explorer "Obsidian"), be enabled. 
 
 Additionally, this plugin requires the Bookmarks Core Plugin also be enabled. 
 
-## Using Bookmarked
+## Using bookmarked
 
 If the Bookmarks core plugin is enabled, and a file is bookmarked, the file will be displayed with a bookmark icon in the File Explorer. 
 
@@ -40,7 +38,7 @@ Here's a screenshot of how it looks:
 >[!screenshot]- Screenshot of Bookmarks Enabled
 >![Bookmarks](https://github.com/valentine195/fantasy-statblocks/blob/gh-pages/images/starred/bookmarks.png?raw=true)
 
-## Customizing Bookmarked
+## Customizing bookmarked
 
 To customize the appearance of Bookmarked Files in Obsidian, you can modify the CSS class `.prominent-decorated-file`. This class controls the layout and style of the Bookmarked Files pane in the Obsidian file explorer.
 
@@ -68,6 +66,6 @@ For example, below will replace the existing icon with your own.
 }
 ```
 
-#### Changing Icon Location
+#### Changing icon location
 
 #Todo/Sigrunixia 

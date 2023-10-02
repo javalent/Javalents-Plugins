@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Make Unique
-  - Dice Make Unique
+aliases: [Make Unique, Dice Make Unique]
 description: This page describes how to use a modifier to make your results
-  unique in Obsidian Dice Roller.
 permalink: dice/modifiers/make-unique
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Make Unique
+# Make unique
 
 **Syntax**: `XdXu`
 

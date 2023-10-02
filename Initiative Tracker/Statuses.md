@@ -1,13 +1,9 @@
 ---
-aliases:
-  - Initiative Tracker Statuses
-  - Conditions
-  - Statuses
+aliases: [Initiative Tracker Statuses, Conditions, Statuses]
 description: Learn how to set up and use statuses within Initiative tracker.
 permalink: it/beginner/statuses
 publish: true
-tags:
-  - IT/Statuses
+tags: [IT/Statuses]
 ---
 
 # Statuses
@@ -17,7 +13,7 @@ One of the features included in Initiative Tracker is the ability to track statu
 
 > [!hint] These statuses can also be called `Conditions` or `Tags`. The words are used interchangeably. 
 
-## Default Statuses
+## Default statuses
 
 These statuses include things like blinded, charmed, frightened, and more. These default statuses can be edited or deleted as needed to customize the plugin to your specific game system. The list of included statuses in detail is below.
 
@@ -43,7 +39,7 @@ These statuses include things like blinded, charmed, frightened, and more. These
 
 > [!tip] Looking for some premade Pathfinder 2E statuses? Check out [this submission on the TTRPG Share](https://github.com/ObsidianTTRPGProject/ObsidianTTRPGShare/blob/main/TTRPGShare-Pathfinder-2E-Vault/Initiative_Tracker/Using-statuses.md "Github"). 
 
-### Adding a Status
+### Adding a status
 
 To add a condition status in the Initiative Tracker Right-Hand Sidebar Modal Window, follow these steps:
 
@@ -58,7 +54,7 @@ To add a condition status in the Initiative Tracker Right-Hand Sidebar Modal Win
 
 ![gif of adding status](https://github.com/javalent/fantasy-statblocks/blob/gh-pages/images/initiative-tracker/adding-status.gif?raw=true)
 
-### Deleting a Condition Status
+### Deleting a condition status
 
 To remove a status from an entity in the Initiative Tracker Right-Hand Sidebar Modal Window:
 
@@ -67,7 +63,7 @@ To remove a status from an entity in the Initiative Tracker Right-Hand Sidebar M
 3.  Click the ⌧ icon on the right side of the status.
 4.  The status should be removed from the entity's name.
 
-## Setting Statuses to Expire after One Round
+## Setting statuses to expire after one round
 
 To make a status automatically expire after one round, follow these steps:
 
@@ -82,7 +78,7 @@ In the settings, the status will now appear with a *stopwatch* next to the name.
 
 Now, whenever the status is newly applied, it will expire at the end of the round and be automatically removed at the start of the next round.
 
-## Statuses with Numbers
+## Statuses with numbers
 
 > [!feature] **Feature**: Introduced in Initiative Tracker Version 9.7.0
 

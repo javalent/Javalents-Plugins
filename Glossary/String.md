@@ -1,19 +1,14 @@
 ---
-aliases:
-  - String
-  - Plain Characters
-  - Wrapped String
+aliases: [String, Plain Characters, Wrapped String]
 description: This page explains how a String is used in CSS and YAML.
 permalink: glossary/string
 publish: true
-tags:
-  - Glossary/YAML
-  - Glossary/CSS
+tags: [Glossary/YAML, Glossary/CSS]
 ---
 
 # String
 
-## CSS
+## Css
 
 A String, or Plain Characters, refer to regular text or characters used in CSS, such as font names, hex color codes, and other values that are not already variables form.
 
@@ -36,7 +31,7 @@ In Javascript, a string is a sequence of characters that are enclosed in single 
 
 Strings are a primitive data type in JavaScript, which means they are not objects and are immutable. This means that once a string is created, it **cannot** be changed. However, you can create a new string based on an existing one by using string manipulation methods such as concatenation, or slicing.
 
-## YAML
+## Yaml
 
 In YAML, a string is a line of characters; akin to a sentence.
 
@@ -51,7 +46,7 @@ A Wrapped String is a way to force the code to parse its contents as they are wr
     *Very Much*."
     **+** A string wrapped by single quotes '' will not parse escape characters. They will be presented as written. 'I love pie.\\n \_Very Much\_.'
 
-### Wrapped Strings
+### Wrapped strings
 
 You will see wrapped strings commonly within the Trait blocks. However, they can be present in all property blocks depending upon the contents.
 

@@ -1,14 +1,14 @@
 ---
 aliases: [Installing a Plugin]
-description: Learn the different ways you can install Javalent's plugins for Obsidian.
+description: "Learn the different ways you can install Javalent's plugins for Obsidian."
 permalink: plugins/installing
 publish: true
-tags: [Plugins/Installation]
+tags: [Plugins/Requirements/Installation]
 ---
 
 # Installing
 
-## Option 1: Community Plugins
+## Option 1: community plugins
 
 ***Step 1.*** Open your **Obsidian Settings**.
 
@@ -30,9 +30,7 @@ If **Restricted Mode** is enabled, you may need to first select "==Turn on Commu
 
 > [!success] Congratulations! You have succeeded in installing the plugin through the Obsidian Community Plugins Menu.
 
-## Option 2: Manual Download and Install
-
-### Method 1: Downloading a .zip or .tar.gz File
+### Method 1: downloading a .zip or .tar.gz file
 
 ***Step 1.*** Navigate to the Releases page for the plugin you want to install on GitHub. You can find a link to this page on the plugin's GitHub repository page.
 
@@ -63,7 +61,7 @@ If **Restricted Mode** is enabled, you may need to first select "==Turn on Commu
 > 2. Use the command `ls -a /path/to/vault` to confirm that your vault does indeed have a .obsidian directory. 
 > 3. You can use the same command to explore further into the .obsidian folder.
 
-### Method 2: Downloading Individual Files
+### Method 2: downloading individual files
 
 ***Step 1.*** Navigate to the Releases page for the plugin you want to install on GitHub.
 
@@ -73,7 +71,7 @@ If **Restricted Mode** is enabled, you may need to first select "==Turn on Commu
 
 ***Step 4.*** Copy the downloaded files into the new plugin folder.
 
-### Final Steps
+### Final steps
 
 ***Step 5.*** Reload Obsidian.
 
@@ -83,14 +81,12 @@ Alternatively, you can head to Obsidian Settings, then to Community Plugins, mak
 
 > [!success] Congratulations! You have installed the plugin from GitHub!
 
-## Option 3: BRAT Installation (Beta-Testers Only)
+## Option 3: brat installation (Beta-Testers Only)
 
 > [!red] It's Dangerous To Go Alone
-> We recommend that you avoid using BRAT versions unless you are explicitly prompted to do so by Javalent or another contributor, or if you have a clean and disposable vault. 
-> 
-> Please note that BRAT versions are not supported indefinitely. We will do our best to notify you when you should stop using a BRAT release, but it is important to keep an eye on the Release Bot for updates regarding the feature you were testing.
+> Please do not use BRAT versions unless you were prompted to by Javalent or a contributor, or have a clean, disposable vault.
 
-### Installing a BRAT Plugin
+### Installing the brat plugin
 
 ***Step 1***. Open your **Obsidian Settings**.
 
@@ -106,7 +102,7 @@ Alternatively, you can head to Obsidian Settings, then to Community Plugins, mak
 
 ***Step 7***. Enable the Plugin.
 
-### Adding a Plugin to BRAT
+### Adding the plugin to brat
 
 ***Step 1***. Copy the GitHub link from plugin you want to have a BETA build for. 
 
@@ -127,4 +123,3 @@ Alternatively, you can head to Obsidian Settings, then to Community Plugins, mak
 ***Step 6***. Check the Community Plugins page to ensure that the plugin is enabled.
 
 > [!success] Congratulations! You now have the Beta version of the plugin. Please report any Beta Issues in the appropriate Repository Issues section.
-

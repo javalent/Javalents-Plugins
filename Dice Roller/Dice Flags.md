@@ -6,66 +6,58 @@ publish: true
 tags: [Dice/Flags]
 ---
 
-# Dice Flags
+# Dice flags
 
-Flags are special parameters that modify the behavior of the dice roller. You can use the following flags:
+## Introduction
 
-## Nodice
+Dice flags are essential parameters that modify the behavior of the dice roller tool. This documentation provides an overview of various flags that can be used to customize dice roll results.
+
+## Nodice flag
 
 **Syntax**: `|nodice`
 
-Adding `|nodice` to any dice roll will disable the display of the dice button in the results. You can also turn it off in the settings.
+The `|nodice` flag disables the display of the dice button in roll results. This feature can also be turned off in settings.
 
-## Form and NoForm
+## Form and noform flags
 
 **Syntax**: `|form` and `|noform`
 
-These two flags allow you to toggle the display of the dice formula when rolling with dice-modifiers.
+The `|form` and `|noform` flags control whether the dice formula is shown when using dice modifiers.
 
-## Render and NoRender
+## Render and norender flags
 
 **Syntax**: `|render` and `|norender`
 
-These two flags control whether the dice results are displayed in the chat box. Adding `|render` will display the results, while `|norender` will suppress them.
+The `|render` flag displays dice results in the chat box, while the `|norender` flag suppresses dice results in the chat box.
 
-## Avg
+## Avg flag
 
 **Syntax**: `|avg`
 
-Using the `|avg` flag at the end of a dice-roller formula initializes the result using the average value of the dice rolls. The tooltip displays the result as an average.
+The `|avg` flag calculates results using the average value of dice rolls. The tooltip displays this as an average. For example, `2d6+3|avg` results in `10`, with the tooltip indicating `average: [3.5,3.5]+3`. Subsequent rolls use random dice results unless Alt-click is used to reroll.
 
-For example, if you roll `2d6+3|avg`, the result will be `10`, and the tooltip will show `average: [3.5,3.5]+3`.
-
-After the initial roll, subsequent rolls use random dice roll results unless you use Alt-click to reroll, which will force the average to be used again.
-
-## None
+## None flag
 
 **Syntax**: `|none`
 
-Using the `|none` flag at the end of a dice-roller formula initializes the result with an empty value. The tooltip indicates that the result is none.
+The `|none` flag initializes results with an empty value. The tooltip indicates "none." Subsequent rolls show random results unless Ctrl-click is used to reroll.
 
-After the initial roll, subsequent rolls display the normal result using random dice roll results unless you use Ctrl-click to reroll, which will force the result to be none again.
-
-## Noparens
+## Noparens flag
 
 **Syntax**: `|noparens`
 
-If you have the [Display Formula in Parenthesis After](Dice%20Roller/Dice%20Roller%20Settings.md#Display%20Formula%20in%20Parenthesis%20After) enabled in Dice Roller Settings, you can use the `|noparens` flag to disable the dice roll in parenthesis - **(1d20)** - for that roll only.
+The `|noparens` flag disables the display of dice rolls in parentheses (e.g., **(1d20)**) if the "Display Formula in Parenthesis After" setting is enabled.
 
-## Text
+## Text flag
 
 **Syntax**: `|text(my text)`
 
-Using the `|text(my text)` flag at the end of a dice-roller formula displays your `my text` **instead** of a numeric result. You can click on it to trigger a roll, and the result <u>is only</u> visible in the tooltip.
+The `|text(my text)` flag replaces numeric results with user-defined text. Clicking the text triggers a roll, with the result only visible in the tooltip. For example, `1d20 + 2|nodice|text(Dexterity +2)` displays "Dexterity +2" and reveals a random saving throw result on hover.
 
-For example, if you roll `1d20 + 2|nodice|text(Dexterity +2)`, the display shows `Dexterity +2`, and when you hover over it, you'll see a random saving throw result (click to reroll as usual).
-
-### FAQ
-
->[!faq]- Can I use formulas within `text(my text)` such as `text(1d20-4)`? 
+>[!faq]- Q1. Can I use formulas within `text(my text)` such as `text(1d20-4)`? 
 > At this time, Dice Roller does not support the ability for the text field to have its own formulas or conditionals.
 
->[!faq]- Is there a way to just add the button by itself without displaying the output or anything?
+>[!faq]- Q2. Is there a way to just add the button by itself without displaying the output or anything?
 > Yes! `dice: 1d20|text( )`
 > There is a simple space within the `()` field. Different operating systems may have to use `""` instead. 
 

@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Keep Highest
+aliases: [Keep Highest]
 description: This page details the Keep Highest functionality in Obsidian Dice Roller.
 permalink: dice/modifiers/highest-keep
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Keep Highest
+# Keep highest
 
 **Syntax**: `XdXk{n}` / `XdXkh{n}`
 

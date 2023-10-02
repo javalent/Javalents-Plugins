@@ -1,12 +1,9 @@
 ---
-aliases:
-  - Sort
-  - Dice Sort
+aliases: [Sort, Dice Sort]
 description: Sorts the dice results in ascending or descending order. 
 permalink: dice/modifiers/sort
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
 # Sort

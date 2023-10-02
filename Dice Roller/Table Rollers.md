@@ -6,9 +6,9 @@ publish: true
 tags: [Dice/Rollers]
 ---
 
-# Table Rollers
+# Table rollers
 
-## Table Roller Overview
+## Table roller overview
 
 The Dice Roller may also be given a link to a table in a note, which it will read and return a random result from the table.
 
@@ -41,7 +41,7 @@ Note that, for backward compatibility reasons, `d` is interpreted as a `d1` and 
 
 Once in preview mode, you may Ctrl - click on the result to open the block reference in a new pane.
 
-### Multiple Headers
+### Multiple headers
 
 If a table provided to the plugin has multiple headers, the plugin will return the entire row unless you specify the header to use:
 
@@ -55,7 +55,7 @@ If a table provided to the plugin has multiple headers, the plugin will return t
 
 `` `dice: [[Note^block-id]]|Header 2` ``
 
-### Lookup Tables
+### Lookup tables
 
 The dice roller can also be used as a lookup table by passing a block-id to a table with the following format:
 
@@ -93,6 +93,6 @@ Example:
 `dice: [[ThisNote^encounter]]`
 ```
 
-### 2d Table Rollers
+### 2d Table rollers
 
 Adding `|xy` to the end of a table roller will return a random table cell (not row) from the table, *unless there is a column named xy*.

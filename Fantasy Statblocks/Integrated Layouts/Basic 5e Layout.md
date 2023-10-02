@@ -6,14 +6,14 @@ publish: true
 tags: [Statblocks/Layout/5e]
 ---
 
-# Basic 5e Layout
+# Basic 5e layout
 
 On this page, you will find the layout block for the Dungeons and Dragons 5th Edition Statblock, visually based on the Systems Resource Document (SRD) version. 
 
 > [!screenshot]- Screenshot of The Mummy Lord
 > ![Mummy Lord](https://github.com/valentine195/fantasy-statblocks/blob/gh-pages/images/statblock/statblock-5e-mummy-lord.png?raw=true)
 
-## DnD 5e Filled Code Block
+## Dnd 5e filled code block
 
 ````yaml
 ```statblock
@@ -89,7 +89,7 @@ spells:
 ```
 ````
 
-### 5e Empty Code Block
+### 5e Empty code block
 
 ````yaml
 ```statblock

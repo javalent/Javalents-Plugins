@@ -1,15 +1,12 @@
 ---
-aliases:
-  - SASS Variables
-  - Dollar Variables
+aliases: [SASS Variables, Dollar Variables]
 description: This page explains what Sass Variables are.
 permalink: glossary/sass-variables
 publish: true
-tags:
-  - Glossary/CSS
+tags: [Glossary/CSS]
 ---
 
-# Sass Variables
+# Sass variables
 
 Dollar Variables, also known as SASS Variables, are variables in [SASS](https://sass-lang.com/documentation/) or SCSS that start with a dollar sign (`$`), followed by a name, such as `$primary-color`. These variables are used to store and reuse values throughout a stylesheet, making it faster and easier to maintain and update the design of a website or application.
 

@@ -1,9 +1,9 @@
 ---
-aliases: [Uninstalling a Plugin]
+aliases: [Uninstalling]
 description: "Learn how to safely and completely remove plugins from your Obsidian vault with this step-by-step guide on uninstalling."
 permalink: plugins/uninstalling
 publish: true
-tags: [Plugins/Uninstalling]
+tags: [Plugins/Requirements/Uninstalling]
 ---
 
 # Uninstalling
@@ -13,7 +13,7 @@ tags: [Plugins/Uninstalling]
 > 
 > When the plugin is uninstalled, the layout will be removed with it!
 
-## Option 1: Uninstalling from the Community Plugins Page
+## Option 1: uninstalling from the community plugins page
 
 Step 0. Ensure there is no files you need to back up before beginning. 
 
@@ -33,7 +33,7 @@ Step 0. Ensure there is no files you need to back up before beginning.
 
 > [!help] You have successfully uninstalled the plugin. 
 
-## Options 2: Uninstalling From Filesystem
+## Options 2: uninstalling from filesystem
 
 ***Step 0.*** Ensure there is no files you need to back up before beginning. 
 

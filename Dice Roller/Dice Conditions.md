@@ -6,15 +6,15 @@ publish: true
 tags: [Dice/Conditions]
 ---
 
-# Dice Conditions
+# Dice conditions
 
-## Dice Condition Overview
+## Dice condition overview
 
 > [!feature] **Feature**: This feature was added in version 6.0.0.
 
 Conditional parameters are supported in dice rolls, allowing you to specify a set of requirements that the dice must meet to be included in the roll. If the dice meet the requirement, it will be considered a `1` (pass), and if it does not, it will be considered a `0` (failure). 
 
-### Dice Rolls as Their Own Conditionals
+### Dice rolls as their own conditionals
 
 > [!feature] **Feature**: This Feature was added in version 8.15.0
 
@@ -22,15 +22,15 @@ Conditional parameters are supported in dice rolls, allowing you to specify a se
 To use a dice roll as a conditional, you will need to use a mathematical operator to define how the first roll should evaluate the second. All of the [[Dice Roller/Dice Conditions#N Conditionals|N Conditionals]] are valid operators in this case.
 
 > [!screenshot]- Screenshot of a Dice Roll as a Condition
->![[_images/IMG-20230804-17.png|Test Conditional]]
+>![[publish/images/IMG-Dice Conditions.png|Test Conditional]]
 
-### N Conditionals
+### N conditionals
 
 You can also supply a "negative equals" condition; if the dice meet this requirement, it will be considered a `-1`. The following conditions are supported:
 
 | Condition          | Effect                                                             |
 | ------------------ | ------------------------------------------------------------------ |
-| `={n}`             | Only rolls that are equal to `{n}` are successful.                 |
+| `\={n}`             | Only rolls that are equal to `{n}` are successful.                 |
 | `=!{n}`\*          | Only rolls that are not equal to `{n}` are successful.             |
 | `>{n}`             | Only rolls that are greater than `{n}` are successful.             |
 | `<{n}`             | Only rolls that are less than `{n}` are successful.                |
@@ -38,24 +38,24 @@ You can also supply a "negative equals" condition; if the dice meet this require
 | `<={n}`            | Only rolls that are less than or equal to `{n}` are successful.    |
 | `-={n}` or `=-{n}` | Rolls equal to `{n}` will be considered -1.                        |
 
-\* Please note that `!={n}` is also a valid dice condition, however, it conflicts with the [[Dice Roller/Modifiers/Explode]] modifier. 
+\* Please note that `!={n}` is also a valid dice condition, however, it conflicts with the [Explode](Dice%20Roller/Modifiers/Explode.md) modifier. 
 
 If you need to use this condition, you can replace `!={n}` with **=!{n}**.
 
-## Modifier Conditions
+## Modifier conditions
 
-The [[Dice Roller/Modifiers/Explode]], [[Dice Roller/Modifiers/Explode and Combine]], and [[Dice Roller/Modifiers/Re-roll]] modifiers each support an optional *condition* operator, which changes the die rolls that the modifier is applied to.
+The [Explode](Dice%20Roller/Modifiers/Explode.md), [Explode and Combine](Dice%20Roller/Modifiers/Explode%20and%20Combine.md), and [Re-Roll](Dice%20Roller/Modifiers/Re-roll.md) modifiers each support an optional *condition* operator, which changes the die rolls that the modifier is applied to.
 
 The following conditions are supported:
 
 | Condition | Effect                                                           |
 | --------- | ---------------------------------------------------------------- |
-| `={n}`    | Only rolls that are equal to `{n}` are modified.                 |
-| `=!{n}`   | Only rolls that are not equal to `{n}` are modified.             |
+| `\={n}`    | Only rolls that are equal to `{n}` are modified.                 |
+| `\=!{n}`   | Only rolls that are not equal to `{n}` are modified.             |
 | `>{n}`    | Only rolls that are greater than `{n}` are modified.             |
 | `<{n}`    | Only rolls that are less than `{n}` are modified.                |
-| `>={n}`   | Only rolls that are greater than or equal to `{n}` are modified. |
-| `<={n}`   | Only rolls that are less than or equal to `{n}` are modified.    |
+| `>\={n}`   | Only rolls that are greater than or equal to `{n}` are modified. |
+| `<\={n}`   | Only rolls that are less than or equal to `{n}` are modified.    |
 
 These conditions are fully chainable.
 

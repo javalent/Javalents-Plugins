@@ -6,7 +6,7 @@ publish: true
 tags: [Dice/Rollers]
 ---
 
-# List Rollers
+# List rollers
 
 The Dice Roller may also be given a link to a list in a note, which it will read and return a random result from the list.
 

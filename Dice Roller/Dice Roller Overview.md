@@ -6,7 +6,7 @@ publish: true
 tags: [Dice/Overview]
 ---
 
-# Dice Roller Overview
+# Dice roller overview
 
 Place a code block with your formula in your note (such as `` `dice: XdX` ``) and in preview mode it will be replaced with the result of the dice rolls. The result can then be re-rolled by clicking on it.
 
@@ -32,7 +32,7 @@ The faces can be supplied as either a raw number or as a `[min, max]` array.
 
 Example: `` `dice: 1d[3,5]` `` will roll 1 die between 3 and 5.
 
-## Omitting Values
+## Omitting values
 
 Both the number of rolls and the faces can be omitted.
 
@@ -42,7 +42,7 @@ Faces will default to `100`.
 
 These defaults can be changed in settings.
 
-## Percentile Dice
+## Percentile dice
 
 The parser supports percentile dice. `` `dice: Xd%` `` will roll X d100 dice.
 
@@ -52,7 +52,7 @@ For a custom percent (such as those used for Traveller's `1d66`), you can use `X
 
 Use `` `dice: XdF` `` to roll a fudge/fate dice. See [here](<https://en.wikipedia.org/wiki/Fudge_(role-playing_game_system)#Fudge_dice>) for more info on this type of dice.
 
-# Fantasy AGE Stunt Dice
+# Fantasy age stunt dice
 
 Use `` `dice: 1dS` `` to roll a Fantasy AGE stunt dice. The result will show the total roll and also the stunt points if successful.
 
@@ -62,7 +62,7 @@ The result in preview mode has a tooltip that will appear when you hover over it
 
 It displays the formula used to calculate the result on the top line, and displays the calculated rolls on the bottom line.
 
-## The Dice View
+## The dice view
 
 The plugin comes with a Dice View that can be added to the workspace.
 
@@ -72,7 +72,7 @@ The Dice View has buttons for common D20 dice set, can be set to roll with advan
 
 Formulas can also just be written directly in the `Dice Formula` textbox. These formulas can be saved using the plus button under the text box for quick re-rolling.
 
-## Graphical Dice
+## Graphical dice
 
 3D Dice can be rolled using the Dice View if [[Dice Roller/Dice Roller Settings#Always Render Dice|Always Render Dice]] is turned on in settings, or the [[Dice Roller/Dice Flags#Render and NoRender|Render and NoRender]] flag is used in the dice formula.
 

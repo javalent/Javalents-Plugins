@@ -1,15 +1,12 @@
 ---
-aliases:
-  - Duplicate and Edit
-  - Duplicate and Edit a Statblock
+aliases: [Duplicate and Edit, Duplicate and Edit a Statblock]
 description: This page shortly details how to Duplicate and Edit an existing
 permalink: statblocks/layout/duplication
 publish: true
-tags:
-  - Statblocks/Layout
+tags: [Statblocks/Layout]
 ---
 
-# Duplicate and Edit a Layout
+# Duplicate and edit a layout
 
 ## Duplication
 
@@ -27,7 +24,7 @@ Voila, you should now have a layout that says "Copy of Layout Name Here."
 A further in-depth guide is coming, but for now, here is a quickstart. 
 
 1. On your new layout copy, select the pen icon, which may look like a diagonal eraser. The alt-text should say "Edit".
-2. [The Layout Editor](Fantasy%20Statblocks/The%20Layout%20Editor/The%20Layout%20Editor.md) will open up.
+2. [Editing Layouts](Fantasy%20Statblocks/Editing%20Layouts/Editing%20Layouts.md) will open up.
 3. Rename the Layout up top. You will need to Save twice for this change to take effect; once on the rename, and once again by saving the changes to the entire layout.
 
 > [!important] Making a Pathfinder 2e Layout? Keep "Pathfinder 2E" in the name to pick up the CSS from the default layout. Also let @Sigrunixia or @Lemons know if your layout needs to be added to the official CSS.

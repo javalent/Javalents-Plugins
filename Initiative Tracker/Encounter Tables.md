@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Encounter Tables
+aliases: [Encounter Tables]
 description: This page details how to create and use basic Encounter Tables
-  within Initiative Tracker.
 permalink: it/encounter/tables
 publish: true
-tags:
-  - IT/Encounters
+tags: [IT/Encounters]
 ---
 
-# Encounter Tables
-
+# Encounter tables
 
 An encounter table is a way to define [Multiple Encounters](Initiative%20Tracker/Multiple%20Encounters.md) in a table format using the `encounter-table` [Code Block](Glossary/Code%20Block.md).
 

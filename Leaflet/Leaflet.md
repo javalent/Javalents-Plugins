@@ -35,38 +35,10 @@ Obsidian Leaflet is an easy-to-use plugin that lets you add interactive maps to 
 
 …And much more!
 
-## Community Reviews
+## Community reviews
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BB3tZYjTzaM?start=206" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_Rr9pOZ3Ses?start=125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rL6y25o__Hs?start=125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Map of Contents
-
-%% Begin Waypoint %%
-- **Advanced Topics**
-	- [[Leaflet/Dataview in Leaflet]]
-	- [[Leaflet/Folder Parameters]]
-	- [[Leaflet/GeoJSON]]
-	- [[Leaflet/GPX]]
-- **Beginner Topics**
-	- [[Leaflet/Bounds]]
-	- [[Leaflet/Leaflet Codeblock]]
-	- [[Leaflet/Leaflet Settings]]
-- **Intermediate Topics**
-	- [[Leaflet/Coordinates]]
-	- [[Leaflet/Dark Mode in Leaflet]]
-	- [[Leaflet/Distances]]
-	- [[Leaflet/Image Maps]]
-	- [[Leaflet/Initial Zoom Level]]
-	- [[Leaflet/Map IDs]]
-	- [[Leaflet/Map Overlays]]
-	- [[Leaflet/Markers]]
-	- [[Leaflet/Overlays with Images]]
-	- [[Leaflet/Overlays]]
-	- [[Leaflet/Real World Maps]]
-	- [[Leaflet/Unit and Scale]]
-
-%% End Waypoint %%

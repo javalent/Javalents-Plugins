@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Inline Encounters
+aliases: [Inline Encounters]
 description: This page details how to use inline encounters.
 permalink: it/encounters/inline
 publish: true
-tags:
-  - IT/Encounters
+tags: [IT/Encounters]
 ---
 
-# Inline Encounters
+# Inline encounters
 
 The inline encounter syntax allows you to create encounters directly within your notes, without the need for an encounter block. The syntax is `` `encounter: <creatures>` `` where creatures are separated by commas.
 

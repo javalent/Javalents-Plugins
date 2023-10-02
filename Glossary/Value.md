@@ -1,11 +1,9 @@
 ---
-aliases:
-  - Value
+aliases: [Value]
 description: This page details what a value is.
 permalink: glossary/value
 publish: true
-tags:
-  - Glossary/YAML
+tags: [Glossary/YAML]
 ---
 
 # Value

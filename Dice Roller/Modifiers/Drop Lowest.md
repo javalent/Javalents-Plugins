@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Drop Lowest
+aliases: [Drop Lowest]
 description: This page details the Drop Lowest functionality in Obsidian Dice Roller.
 permalink: dice/modifiers/lowest-drop
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Drop Lowest
+# Drop lowest
 
 **Syntax**: `XdXdl{n}`
 

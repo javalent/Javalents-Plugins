@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Drop Highest
+aliases: [Drop Highest]
 description: This page details the Drop Highest functionality of Obsidian Dice Roller.
 permalink: dice/modifiers/highest-drop
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Drop Highest
+# Drop highest
 
 **Syntax**: `XdXdh{n}``
 
