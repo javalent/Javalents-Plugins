@@ -1,0 +1,75 @@
+# This workflow has been borrowed and edited from the Obsidian Developer Docs workflow
+# It was first created by Marcus Olson
+
+name: Build TypeScript docs
+
+on:
+  push:
+    paths:
+    - 'config/**' # Only run this workflow whenever a file in ./config has changed.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - name: Install API Extractor
+        run: npm install -g @microsoft/api-extractor
+
+      - name: Run API Extractor
+        run: |
+          cd config
+          api-extractor run --local --verbose
+
+      - name: Clone API Documenter fork
+        run: git clone https://github.com/calendar/rushstack-obsidian.git
+
+      - name: Install Rush
+        run: npm install -g @microsoft/rush
+
+      - name: Build Rushstack
+        working-directory: ./rushstack-obsidian
+        continue-on-error: true
+        run: |
+          rush update --bypass-policy
+          rush build
+
+      - name: Generate API docs
+        working-directory: ./config
+        run: ../rushstack-obsidian/apps/api-documenter/bin/api-documenter markdown --output ../en/Reference/TypeScript\ API
+
+      - name: Post-process Markdown
+        working-directory: ./config
+        run: node post-process.js
+
+      - name: Print changes
+        run: git diff
+
+      - name: Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push changes
+        run: |
+          git checkout -b $GITHUB_RUN_ID
+          git add Calendarium/API
+          git commit -m "Auto-generate docs for Calendarium.d.ts"
+          git push -u origin $GITHUB_RUN_ID
+
+      - name: Create pull request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --title "Auto-generate docs for calendarium.d.ts" \
+            --body "This PR has been automatically created by GitHub Actions." \
+            --base main \
+            --head $GITHUB_RUN_ID
