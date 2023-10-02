@@ -1,14 +1,12 @@
 ---
-aliases:
-  - REM
+aliases: [REM]
 description: This page explains how REM is used in CSS.
 permalink: glossary/rem
 publish: true
-tags:
-  - Glossary/CSS
+tags: [Glossary/CSS]
 ---
 
-# REM
+# Rem
 
 REM stands for "root em" and is a unit of measurement in CSS. It is similar to the "em" unit but is based on the root element rather than the parent element, such as `<html>` or `body {}`. In our case, this would be the size defined within `.statblock-content`. 
 

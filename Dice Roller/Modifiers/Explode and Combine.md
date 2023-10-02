@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Explode and Combine
+aliases: [Explode and Combine]
 description: This page details the Explode and Combine functionality in Obsidian
 permalink: dice/modifiers/explode-combine
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Explode and Combine
+# Explode and combine
 
 **Syntax**: `XdX!!{n|i}`
 

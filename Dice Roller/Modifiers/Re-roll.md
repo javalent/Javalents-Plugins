@@ -1,14 +1,9 @@
 ---
-aliases:
-  - Re-Roll
-  - Dice Re-Roll
+aliases: [Re-Roll, Dice Re-Roll]
 description: Re-roll a minimum dice. If `{n}` or `{i}` is provided, it will
-  continue re-rolling until a number greater than the minimum is rolled, or
-  `{n}` attempts have been made.
 permalink: dice/modifiers/re-roll
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
 # Re-roll

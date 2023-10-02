@@ -1,17 +1,12 @@
 ---
-aliases:
-  - Min-Max
-  - Min Max
-  - Dice Min Max
-  - Dice Min-Max
+aliases: [Min-Max, Min Max, Dice Min Max, Dice Min-Max]
 description: Create a custom die, with a minimum of Y and a maximum of Z.
 permalink: dice/modifiers/min-max
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Min-Max
+# Min-max
 
 **Syntax**: `Xd[Y, Z]`
 

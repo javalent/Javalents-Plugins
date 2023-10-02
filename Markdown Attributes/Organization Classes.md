@@ -1,22 +1,16 @@
 ---
-aliases:
-  - Markdown Attributes for Organization
-  - Organization Classes
-  - HTML IDs
-  - List Classes
-  - Table Classes
+aliases: [Markdown Attributes for Organization, Organization Classes, HTML IDs, List Classes, Table Classes]
 description: This page provides an overview of the Organization Styling
 permalink: attributes/organization
 publish: true
-tags:
-  - Attributes/Organization
+tags: [Attributes/Organization]
 ---
 
-# Organization Classes
+# Organization classes
 
 Markdown Attributes can be applied to individual HTML IDs, lists, and tables to enable custom styling and formatting of these elements. This approach eliminates the need to apply specific div classes to each individual table, thus allowing for more efficient organization and management of the content.
 
-## HTML IDs
+## Html ids
 
 Markdown Attributes can be *applied* to HTML ID's as well.  
 
@@ -26,7 +20,7 @@ Currently, the ID attribute must be set using `id=value` due to Obsidian's handl
 <a href="github.com" id="items of joy">Github</a>
 ```
 
-## List Classes
+## List classes
 
 Lists may have attributes placed on each individual list item.
 
@@ -54,7 +48,7 @@ To apply attributes to the final nested/indented list, you need to place the att
         { .nested-ul}
 ```
 
-## Table Classes
+## Table classes
 
 Attributes can be added to the `.Table` element by placing the attribute on the line below it.
 

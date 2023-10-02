@@ -1,15 +1,12 @@
 ---
-aliases:
-  - Nesting Admonitions
-  - Nest an Admonition
+aliases: [Nesting Admonitions, Nest an Admonition]
 description: Admonitions allows for nesting of other Admonitions, as well as codeblocks.
 permalink: admonitions/nesting
 publish: true
-tags:
-  - Admonitions/Nesting
+tags: [Admonitions/Nesting]
 ---
 
-# Nesting Admonitions
+# Nesting admonitions
 
 You can nest admonitions by increasing the number of backticks. A nested admonition is created by enclosing a new set of backticks inside an existing admonition. 
 
@@ -37,7 +34,7 @@ This is in the original admonition.
 `````
 ``````
 
-## Rendering Code Blocks
+## Rendering code blocks
 
 To nest code blocks inside admonitions, you can use a method similar to nesting admonitions, by increasing the number of backticks. 
 

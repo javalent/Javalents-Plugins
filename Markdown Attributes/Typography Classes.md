@@ -6,17 +6,17 @@ publish: true
 tags: [Attributes/Typography]
 ---
 
-# Typography Classes
+# Typography classes
 
 One area where Markdown attributes can be particularly useful is in typography, where they can help you achieve better formatting and layout of your text. By using attributes such as classes, IDs, and inline styles, you can control the appearance of headings, paragraphs, and other text elements in your Markdown document beyond the normal limitation of Markdown. This is especially helpful when creating complex documents such as technical manuals, academic papers, or character sheets, where clear and consistent formatting can make a big difference in readability and impact.
 
-## Header Classes
+## Header classes
 
 Attributes must be added to headers at the end of the line.
 
 `### A Header { id=header .header-class }`
 
-## Inline Text Elements
+## Inline text elements
 
 Inline text elements such as *italics*, **bold**, ==highlight==, etc. should have their attributes placed *inside* the symbol:
 
@@ -24,7 +24,7 @@ Inline text elements such as *italics*, **bold**, ==highlight==, etc. should hav
 I'm normal text, but *I'm italic { class='italics' }*, **I'm bold { .bold }** and ==I'm highlighted { id=highlight }==.
 ```
 
-## Link Classes
+## Link classes
 
 Wikilinks and Markdown syntax links may have attributes placed on them.
 
@@ -32,7 +32,7 @@ Wikilinks and Markdown syntax links may have attributes placed on them.
 
 `[[Test 123]] { .wikilink}`
 
-## Paragraph Classes
+## Paragraph classes
 
 Attributes must be added to paragraphs at the end of each paragraph as shown below. If your multiple paragraphs are wrapped into a blockquote, you would follow the rules for [[Block Quote Classes|Markdown Attribute Block Quotes]] instead. 
 

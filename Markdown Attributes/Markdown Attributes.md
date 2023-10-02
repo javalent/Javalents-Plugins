@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Obsidian Markdown Attributes
-  - Markdown Attributes
+aliases: [Obsidian Markdown Attributes, Markdown Attributes]
 description: Markdown Attributes is a plugin that adds pandoc-style markdown
-  attributes to Obsidian.
 permalink: attributes
 publish: true
-tags:
-  - Attributes
+tags: [Attributes]
 ---
+
+# Markdown attributes
 
 [GitHub Repo](https://github.com/valentine195/obsidian-markdown-attributes "Repo") [Changelog](https://github.com/valentine195/obsidian-markdown-attributes/blob/9b9d20211e6cafd4aa90066e65de51e14c27ecda/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/obsidian-markdown-attributes/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
 
@@ -26,8 +24,7 @@ This plugin allows the use of `{ .class id='id' data=value }` Pandoc-style markd
 > - Feature Requests **will not** be worked.
 > #Status/Maintenance 
 
-
-## Using the Plugin
+## Using the plugin
 
 Add your attributes inside a curly bracket with a colon, as shown below. 
 
@@ -35,13 +32,13 @@ Add your attributes inside a curly bracket with a colon, as shown below.
 
 See the map of content below, or the navigation bar to the left, for examples on elements. 
 
-### Projects Which Use Markdown Attributes
+### Projects which use markdown attributes
 
 - [Syrkres' Fantasy Fonts](https://github.com/Syrkres/oRPG-Snippets/tree/main/fonts "Github")
 - [PF2e Action Icons](https://github.com/ObsidianTTRPGProject/ObsidianTTRPGShare/blob/main/TTRPGShare-Pathfinder-2E-Vault/action-icons/PF2e-Action-Icons-Instructions.md "Github")
 - [Efemkay's Multi-Column Snippet](https://github.com/efemkay/obsidian-modular-css-layout#multi-column "Github")
 
-## Map of Content
+## Map of content
 
 %% Begin Waypoint %%
 - **[[Markdown Attributes/Attribute Blocks]]**

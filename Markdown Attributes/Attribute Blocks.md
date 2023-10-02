@@ -6,11 +6,11 @@ publish: true
 tags: [Attributes/Blocks]
 ---
 
-# Attribute Blocks
+# Attribute blocks
 
 In adding attributes directly to a block, you can change the formatting and style of the text, such as its background color or font. This can be particularly useful for organizing and visually differentiating different sections of a note. The syntax for adding attributes to blocks is straightforward, and can be added directly to various types of blocks, including paragraphs, blockquotes, and code blocks.
 
-## Block Quote Classes
+## Block quote classes
 
 ```md
 > Your base land movement speed is 30 feet or 3 Squares. 
@@ -21,7 +21,7 @@ In adding attributes directly to a block, you can change the formatting and styl
 
 To customize the appearance or behavior of a block quote, you can add Markdown attributes directly after the last line of the quote. In the example above, we've added the `.class` attribute to assign a custom class to the block quote.
 
-## Callout Classes
+## Callout classes
 
 You can also use Markdown Attributes to style Obsidian callouts. The same syntax applies as for Block Quotes, and you can target callouts by placing the attributes after the last line of the callout. For example:
 
@@ -30,7 +30,7 @@ You can also use Markdown Attributes to style Obsidian callouts. The same syntax
 > { .DragonscriptFont }
 ```
 
-## Code Block Classes
+## Code block classes
 
 To add Markdown Attributes to a code block, the attributes should be placed after the initial three ticks. 
 

@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Obsidian Settings Search
-  - Settings Search API
-  - Settings Search
+aliases: [Obsidian Settings Search, Settings Search API, Settings Search]
 description: Settings Search adds a global search to Obsidian's settings
 permalink: settings-search
 publish: true
-tags:
-  - Settings-Search
-  - API/Settings-Search
+tags: [Settings-Search, API/Settings-Search]
 ---
 
+# Settings search
 
 [GitHub Repo](https://github.com/valentine195/obsidian-settings-search "Repo") [Changelog](https://github.com/valentine195/obsidian-settings-search/blob/master/CHANGELOG.md "Changelog") [Issues](https://github.com/valentine195/obsidian-settings-search/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "Issues")
 
@@ -51,7 +47,7 @@ Obsidian's settings, how I love yooooouuuuuu!
 >[!screenshot]- Screenshot of Settings Search Added to Obsidian
 >![Setting Search Bar](https://raw.githubusercontent.com/valentine195/obsidian-settings-search/master/assets/ui.png)
 
-## Keyboard Navigation
+## Keyboard navigation
 
 In addition to standard mouse functionality, this plugin is fully keyboard enabled in that you can use the keyboard to navigate the search results. 
 
@@ -73,7 +69,7 @@ Once you hit **Enter/Return**, the Settings Search Bar will remain in focus (or 
 > [!tip] Looking for a Complementary Plugin?
 > Check out [Obsidian Surfing Key](https://github.com/Quorafind/Obsidian-Surfing-Key). This makes the entirety of Obsidian able to be navigated by keyboard. 
 
-## API for Settings Search
+## Api for settings search
 
 This plugin works by rendering all the setting tabs, and grabbing any rendered setting. Sometimes settings are rendered dynamically, and thus not available when a tab is rendered. 
 

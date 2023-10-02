@@ -6,13 +6,13 @@ publish: true
 tags: [Statblocks/Layout/13A-Monster]
 ---
 
-# Basic 13th Age Monster Layout
+# Basic 13th age monster layout
 
 ## Description
 
 This is a 13th Age 1st Edition Monster Statblock for use within Fantasy Statblocks.
 
-## Sample Images
+## Sample images
 
 > [!screenshot]- 1 Column Chimera
 > ![1-column-chimera](https://github.com/javalent/fantasy-statblocks/blob/main/src/layouts/13th%20age/monster/examples/chimera-1-col.png?raw=true)
@@ -21,7 +21,7 @@ This is a 13th Age 1st Edition Monster Statblock for use within Fantasy Statbloc
 > [!screenshot]- 2-Column Chimera
 > ![2-column-chimera](https://github.com/javalent/fantasy-statblocks/blob/main/src/layouts/13th%20age/monster/examples/chimera-2-cols.png?raw=true)
 
-## 13th Age Monster Filled Code Block
+## 13th Age monster filled code block
 
 ````yaml
 ```statblock
@@ -64,7 +64,7 @@ description: "<h2>Icons</h2><p>It is said that wizards trained by the original W
 ```
 ````
 
-### 13th Age Monster Empty Codeblock
+### 13th Age monster empty codeblock
 
 ````yaml
 ```statblock
@@ -105,9 +105,9 @@ description:
 ```
 ````
 
-## Callbacks Used
+## Callbacks used
 
-### Create Stats Table
+### Create stats table
 
 ```js
 const getStatLine = (statName, statValue) => {
@@ -137,7 +137,7 @@ statFullBlock.append(getStatLine("HP", monster.hp));
 return statFullBlock;
 ```
 
-### Create Monster Level Line
+### Create monster level line
 
 ```js
 var base_string = `${monster.level} level ${monster.role}`;

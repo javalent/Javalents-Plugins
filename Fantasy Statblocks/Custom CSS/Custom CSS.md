@@ -6,13 +6,9 @@ publish: true
 tags: [xCSS/Statblocks]
 ---
 
-# Custom CSS
+# Custom css
 
-[[Fantasy Statblocks|Fantasy Statblocks]] > *You Are Here*
-
----
-
-In [[Fantasy Statblocks/The Layout Editor/The Layout Editor|The Layout Editor]], we went over what each block does and how to create the layout. In this section, we'll focus on styling the custom layout. This can be considered an intermediate section, and each page broken down into two main parts: Function and Design. 
+In [[Fantasy Statblocks/Editing Layouts/Editing Layouts|Editing Layouts]], we went over what each block does and how to create the layout. In this section, we'll focus on styling the custom layout. This can be considered an intermediate section, and each page broken down into two main parts: Function and Design. 
 
 >[!warning]- CSS Knowledge Expectations
 > You are expected to have some basic CSS knowledge, or the ability to read the [Mozilla CSS Reference Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) (*The Moz*). 
@@ -28,7 +24,7 @@ In Design, we'll cover what CSS can do to help, and its limitations.
 
 Each section will end with considerations to keep in mind as you commit to making a custom layout. I sometimes say that a Statblock Layout is an Obsidian Theme unto itself, and sometimes it is!
 
-## Suggestions To Get Started
+## Suggestions to get started
 
 1) Invest in an IDE from the get-go, such as VSCode.
 2) Consider learning about SCSS and [@use](https://sass-lang.com/documentation/at-rules/use) even if you plan to write in regular CSS. Separating out the CSS into smaller files helps makes maintenance and trouble-shooting easier. You can see how the Pathfinder2E Statblock CSS is [maintained using this method](https://github.com/mProjectsCode/obsidian-pathfinder2e-statblocks/tree/master/src/scss).
@@ -39,6 +35,13 @@ Each section will end with considerations to keep in mind as you commit to makin
 
 When you are ready, let's begin. We have a long way to go.
 
-### Additional Resources
+### Suggested reading order
 
-- [Tailwind CSS Color Generator]](https://uicolors.app/create): Use this to explore different shades of colors and access contrast. The colors can be exported in both [[Hyphen Variables]] and [[Sass Variables|Dollar Variables]].
+1. [Default CSS Variables](Fantasy%20Statblocks/Custom%20CSS/Default%20CSS%20Variables.md)
+2. [Custom CSS Variables](Fantasy%20Statblocks/Custom%20CSS/Custom%20CSS%20Variables.md)
+#TBA
+
+### Additional resources
+
+- [Tailwind CSS Color Generator](https://uicolors.app/create): Use this to explore different shades of colors and access contrast. The colors can be exported in both [[Hyphen Variables]] and [[Sass Variables|Dollar Variables]].
+

@@ -1,22 +1,19 @@
 ---
-aliases:
-  - Initiative Tracker Encounter Builder
+aliases: [Initiative Tracker Encounter Builder]
 description: Learn how to access and use the Encounter Builder feature in
-  Initiative Tracker.
 permalink: it/encounter-builder
 publish: true
-tags:
-  - IT/Builder
+tags: [IT/Builder]
 ---
 
-# Encounter Builder
+# Encounter builder
 
 Initiative Tracker also features a comprehensive Encounter Builder. The encounter builder is used to look at the bestiary in its entirety to plan out the perfect tor- I mean, *challenge*, for your players. 
 
 >[!screenshot]- Encounter Builder Pre Remake
 > ![encounter-builder](https://github.com/javalent/initiative-tracker/blob/main/publish/images/encounter-builder/encounter-builder.png?raw=true)
 
-## Accessing Encounter Builder
+## Accessing encounter builder
 
 There are currently two ways to access the encounter builder. 
 
@@ -42,7 +39,7 @@ There are currently two ways to access the encounter builder.
 4.  Select the option `Initiative Tracker: Open Encounter Builder`.
 5.  The Encounter Builder tab should open in the same place your notes do.
 
-## Encounter Builder View
+## Encounter builder view
 
 ### Players
 
@@ -67,7 +64,7 @@ The experience section of the encounter builder helps you determine the difficul
 1. This section shows the calculated experience for the encounter, based on the challenge rating of the selected creatures and the number of player characters.
 2.  You can also see how much experience the players' group is expected to earn in a day, according to their level.
 
-### The Headers
+### The headers
 
 The Encounter headers consist of the section that displays the selected creatures, as well as the standard encounter launch, save, and export buttons.
 
@@ -80,7 +77,7 @@ The Encounter headers consist of the section that displays the selected creature
     3.  Load Encounter Button
     4.  Erase (Reset Builder)
 
-### Filters in Depth
+### Filters in depth
 
 ![Filters in Depth](https://github.com/javalent/initiative-tracker/blob/main/publish/images/encounter-builder/dynamic-filtering.png?raw=true)
 
@@ -102,21 +99,21 @@ You can also further enhance your search by:
     2.  Export filter settings (filter, header, and collapse state)
     3.  Import filter settings (also, filter, header, and collapse state)
 
-## Using the Encounter Builder
+## Using the encounter builder
 
 > [!screenshot]- Filtering in Action
 > ![Filter Evil](https://github.com/javalent/initiative-tracker/blob/main/publish/images/encounter-builder/filter-alignment.png?raw=true)
 
  Typing the word 'evil' brings up any alignment with the word evil in it.
 
-### Dynamic Filtering
+### Dynamic filtering
 
 The encounter builder's filters are designed to extract data from the entries in the relevant field, allowing you to easily locate specific items regardless of their names.
 
 > [!screenshot]- Image of Filters Available for Type
 > ![Filtering](https://github.com/javalent/initiative-tracker/blob/main/publish/images/encounter-builder/pulling-from-fields.png?raw=true)
 
-### Editing Filters and Headers
+### Editing filters and headers
 
 The encounter builder has a feature to edit the layout of headers for filtering, similar to the [[Fantasy Statblocks]] plugin.
 

@@ -6,19 +6,19 @@ publish: true
 tags: [Glossary/Markdown]
 ---
 
-# Code Block
+# Code block
 
 In Markdown, a code block is a section of code that is displayed in a monospaced font and is usually surrounded by a contrasting background to distinguish it from the rest of the text.
 
 To indicate a code block in Obsidian, you can either use backticks (\`) to surround a small inline code snippet, or use triple backticks (\`\`\`) to surround a larger block of code. 
 
-## Inline Code Block
+## Inline code block
 
 `dice: 1d10 - 1d10`
 
 An inline code block is usually one line, though it may be several lines joined together as one.
 
-## Block Code
+## Block code
 
 A block code, or code block, is multiple lines. In most editors including Obsidian, this codeblock will be highlighted to indicate functions. For formatting, the text inside it can be separated by spaces. It can be indented. It can be minified (all spaces removed). It can come in all shapes and sizes. 
 

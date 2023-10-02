@@ -1,11 +1,9 @@
 ---
-aliases:
-  - Explode
+aliases: [Explode]
 description: This page details the Explode functionality in Obsidian Dice Roller.
 permalink: dice/modifiers/explode
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
 # Explode

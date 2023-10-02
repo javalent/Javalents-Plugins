@@ -7,13 +7,13 @@ tags: [Statblocks/layout/PR]
 test: 1
 ---
 
-# Adding a Default Layout
+# Adding a default layout
 
 > [!success] By following these steps, you are committing to help maintain your layout and ensure that any necessary updates are made when Obsidian or Fantasy Statblocks releases new versions that may cause issues or conflicts.
 
 Before beginning, start by reading the [Contributing.md](https://github.com/javalent/fantasy-statblocks/blob/main/CONTRIBUTING.md) file, which contains additional information on this process.
 
-## Your Layout Folder
+## Your layout folder
 
 1.  In your own fork of [fantasy-statblocks/tree/main/src/layouts](https://github.com/javalent/fantasy-statblocks/tree/main/src/layouts "Github"), copy the **copy-me** folder and paste/rename it with your desired layout name.
 
@@ -26,7 +26,7 @@ Before beginning, start by reading the [Contributing.md](https://github.com/java
 
 | Folder         | File               | Purpose                                                                                                                                                                                                                              |
 | -------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| /              | `your-layout.ts`   | This file is where you will end up pasting the contents of your layout.json, which you made in [[Fantasy Statblocks/The Layout Editor/The Layout Editor]].                                                                                                                                                         |
+| /              | `your-layout.ts`   | This file is where you will end up pasting the contents of your layout.json, which you made in [[Fantasy Statblocks/Editing Layouts/Editing Layouts]].                                                                                                                                                         |
 | Callbacks      |                    | This folder is where you would place your `.js` files containing the callbacks used in your layout. Soon\* you will be able to import directly from these files into your layout.                                                    |
 | Other          | -                  | This folder is for other files that are unrelated to the existing folders. Build scripts, your normal `layout.json`, reference materials, etc.                                                                                                                                                           |
 | Publish        | -                  | This Folder is for any documentation you need to explain on how to use your statblock. This will be posted on the [Integrated Layouts](https://plugins.javalent.com/statblock/layouts/integrated) section of the documentation site. |
@@ -59,7 +59,7 @@ edited: false /** This is Optional, but we suggest leaving it. */
 
 If your IDE is showing errors in the code, don't worry, it's normal. You can ignore the comments in the code or delete them as you work on it. Let's now move on to importing your layout.json.
 
-### Importing Your layout.json
+### Importing your layout.json
 
 >[!code]- Example of Start of Pasting Json Code
 > ```typescript
@@ -126,7 +126,7 @@ export const DefaultLayouts = [
 5. Finally, add `YourLayoutName` one more time in the list under `export const DefaultLayouts`.
 6. Save the file. 
 
-## Add Your Styles to Styles.css
+## Add your styles to Styles.css
 
 Navigate to `/src/styles.css` and open the file. As of writing, the file has the following contents:
 
@@ -147,10 +147,10 @@ Add your own `@import` line at the end of this file, after the last existing `@i
 @import "./layouts/your-layout/xCSS/your-layout.css";
 ```
 
-### Wrapping Up
+### Wrapping up
 
 You're about done. Dot your i's. Cross your t's. Lint your files. Do not delete any empty folders. Make some food. Play a game. Celebrate!
 
-## Submitting a Pull Request
+## Submitting a pull request
 
 You don't need to create an issue thread before submitting a pull request for a new layout. Once you've finished making your changes, go ahead and submit the pull request to the main repository. Before submitting, make sure to review the contributing.md file again, as it includes instructions on how to trigger a new plugin build when your pull request is accepted.

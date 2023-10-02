@@ -6,7 +6,7 @@ publish: true
 tags: [Support/YAML]
 ---
 
-# YAML Validation Errors
+# Yaml validation errors
 
 The most common reason why a [[Fantasy Statblocks|Fantasy Statblock]]  and [[Leaflet|Leaflet]] map will not render, is due to YAML syntax errors. 
 
@@ -38,7 +38,7 @@ Hit Dice: "200 (20d20)"
 ```
 ````
 
-## Escaping Characters
+## Escaping characters
 
 Another, very common reason for rendering issues, is a lack of unescaped characters. An unescaped character is a character that has not been properly encoded to be interpreted by the system.
 
@@ -56,11 +56,11 @@ name: Lenny \& Diario\'s House Hunting Adventures
 
 For good measure, you may want to give it the [[String#Wrapped Strings|Wrapped Strings]] treatment as well.
 
-## New Lines
+## New lines
 
 Inappropriate newlines in the YAML can also result in a partial or full collapse of the render view. In non-docu speak: half or none of the statblock may show up. Here are three common forms of creating new-lines, each with their own strengths and weaknesses.
 
-### Backslash N
+### Backslash n
 
 YAML defaults to this in normal programming (along with scalars, but we are NOT GOING THERE!), but as you can see, its messy. Incorrectly placed, however, and you will cause a rendering issue. This is a good one to check with [YAML Lint](https://www.yamllint.com).
 
@@ -72,9 +72,9 @@ actions:
 ```
 ````
 
-### Spaced Descriptions
+### Spaced descriptions
 
-A brute-force, but also clean way to create a new line, particularly when working with [[Fantasy Statblocks/The Layout Editor/Core Blocks#Trait Block|Trait Blocks]], is use descriptions as newlines. For example:
+A brute-force, but also clean way to create a new line, particularly when working with [[Fantasy Statblocks/Editing Layouts/Core Blocks#Trait Block|Trait Blocks]], is use descriptions as newlines. For example:
 
 ````yaml
 ```statblock
@@ -90,7 +90,7 @@ actions:
 
 This method creates more space within the codeblock. A large benefit of this is that information is neatly and tidily formatted into individual lines. Secondarily, each line can be individually targeted via css for those so include to delve into child selectors.
 
-### Indented Newlines
+### Indented newlines
 
 Suppose you have a D&D character sheet Statblock you are trying to build with following content:
 
@@ -131,7 +131,7 @@ equipment:
   - creepy orb
 ```
 
-## Quotation Marks
+## Quotation marks
 
 Quotation Marks are the secondary protectors against special characters, besides the backslash. Suppose you are adapting a Pathfinder Layout to be more akin to a Character Sheet:
 

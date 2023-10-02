@@ -12,7 +12,7 @@ tags:
 
 > [!infobox|wikipedia]+
 > ## Jeremy Valentine
-> ![[_images/IMG-20230804.png]]
+> ![[publish/images/IMG-About Javalent.png]]
 > ### Information
 > | Stat | Info |
 > |---|---|

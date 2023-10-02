@@ -1,15 +1,12 @@
 ---
-aliases:
-  - Custom Percent
+aliases: [Custom Percent]
 description: This page details the usage of the Custom Percent modifier in
-  Obsidian Dice Roller.
 permalink: dice/modifiers/custom-percent
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Custom Percent
+# Custom percent
 
 **Syntax**: `XdX%`
 

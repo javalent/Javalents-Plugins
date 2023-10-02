@@ -6,13 +6,13 @@ publish: true
 tags: [Statblocks/Layout]
 ---
 
-# Integrated Layouts
+# Integrated layouts
 
 This section showcases the statblock layouts that have been directly added to the Fantasy Statblocks plugin. You will learn about the different layouts available and how to use them without the need for any external files. 
 
 Additionally, you'll find information on how to submit your own [[Fantasy Statblocks/Custom CSS/Custom CSS|custom layouts]] to be potentially added to the plugin.
 
-## Currently Included Layouts
+## Currently included layouts
 
 | D20                               | Generic                    |
 | --------------------------------- | -------------------------- |

@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Keep Lowest
+aliases: [Keep Lowest]
 description: This page details the Keep Lowest functionality in Obsidian Dice Roller.
 permalink: dice/modifiers/lowest-keep
 publish: true
-tags:
-  - Dice/Modifiers
+tags: [Dice/Modifiers]
 ---
 
-# Keep Lowest
+# Keep lowest
 
 **Syntax**: `XdXkl{n}`
 

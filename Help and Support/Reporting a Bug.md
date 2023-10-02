@@ -6,21 +6,21 @@ publish: true
 tags: [Support/Report-Bug]
 ---
 
-# Reporting a Bug
+# Reporting a bug
 
-## Report A Bug Overview
+## Report a bug overview
 
 > [!statblock] Greetings, brave traveler! Lest thou waste thy precious time, heed these wise words!
 
 There is a form to help you submit a bug report. The following section will guide you on providing enough information for us to investigate the bug.
 
-### Readability and Data
+### Readability and data
 
 -   [!] Provide your code-blocks so we can easily copy and view what you are experiencing.
 -   [!] Share other text that we can copy, like error codes. This helps us quickly locate the source of the error without mistakes caused by dragon fingers.
 -   [!] Ensure readability. If what you show us looks like a jumbled mess, it will be difficult for us to understand.
 
-### Raw Data
+### Raw data
 
 To enable us to copy the raw text of your task, enclose it between two lines containing only `~~~`. For example:
 
@@ -41,13 +41,13 @@ monster: Ancint Black Dragon
 
 >[!bug] In this case, the bug is due to a typo in the Monster name.
 
-### Steps to Reproduce the Bug
+### Steps to reproduce the bug
 
 To report a bug, you will need to provide us with an exact and complete list of numbered steps that led to the problem. It is crucial that these steps are performed in a vault where the plugin in question is the only enabled plugin. This is unless the plugin requires a specific interaction with another Javalent Plugin.
 
 > [!danger] Please note that if we cannot reproduce the bug, we cannot fix it. Therefore, incomplete bug reports are not helpful. We receive many bug reports, and we do not have time to follow up on incomplete ones. If your report is incomplete, it will go stale, and **we will** close it.
 
-## Reporting Bugs and Interactions with Non-Javalent Plugins
+## Reporting bugs and interactions with non-javalent plugins
 
 > [!warning] We do not focus on resolving problems related to Javalent Plugins interacting with other plugins, unless the **author of the plugin is willing to actively** collaborate with us to find a solution.
 
@@ -58,7 +58,7 @@ Acquiring knowledge of the settings, behavior, and code of another plugin would 
 The Javalent plugin in question, and the non Javalent plugin it is interacting with.
 One or two notes that demonstrate the problem.
 
-### Before Reporting a Javalent Bug Involving Another Plugin
+### Before reporting a javalent bug involving another plugin
 
 - [ ] Create a new Obsidian vault.
 - [ ] Install the Javalent Plugin, and update the settings if necessary.
@@ -67,7 +67,7 @@ One or two notes that demonstrate the problem.
 - [ ] Confirm that you can reproduce the problem in this minimal setup.
 - [ ] Note every step you took to reproduce the problem.
 
-### Submit Your Minimal Vault
+### Submit your minimal vault
 
 Once you have figured out how to reproduce the problem:
 

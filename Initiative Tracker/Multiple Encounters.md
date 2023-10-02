@@ -1,14 +1,12 @@
 ---
-aliases:
-  - Multiple Encounters
+aliases: [Multiple Encounters]
 description: This page details how to use multiple encounters in Initiative Tracker.
 permalink: it/encounters/multiple
 publish: true
-tags:
-  - IT/Encounters
+tags: [IT/Encounters]
 ---
 
-# Multiple Encounters
+# Multiple encounters
 
 A multiple encounter table is as simple as adding a horizontal line.
 

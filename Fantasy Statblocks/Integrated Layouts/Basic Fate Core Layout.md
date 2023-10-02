@@ -6,22 +6,22 @@ publish: true
 tags: [Statblocks/Layout/Fate-Core]
 ---
 
-# Basic Fate Core Layout
+# Basic fate core layout
 
 On this page, you'll find a [Codeblock](Glossary/Code%20Block.md) containing the basic layout for Fate Core in Fantasy Statblocks. 
 
 This layout can be used for entities, factions, locations, items, and more - all you need is a name and some aspects.
 
-## Sample Image
+## Sample image
 
 > [!screenshot]- Screenshot of Barathar, an Awkward Sunbear
 > ![Sunbear](https://github.com/valentine195/fantasy-statblocks/blob/gh-pages/images/statblock/statblock-crazy-bear.png?raw=true)
 
-### Modifying Layouts
+### Modifying layouts
 
 If you want to add or modify custom stress tracks, you can create a duplicate of the layout and edit the `stress block` accordingly.
 
-## Fate Core Filled Code Block
+## Fate core filled code block
 
 ````yaml
 ```statblock
@@ -76,7 +76,7 @@ items:
 ```
 ````
 
-### Fate Core Empty Code Block
+### Fate core empty code block
 
 ````yaml
 ```statblock

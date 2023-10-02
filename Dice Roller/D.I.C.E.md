@@ -10,9 +10,9 @@ tags: [Dice]
 
 Short for Dice [Rolling] Important Common Enquiries.
 
-## Conditional Rolls
+## Conditional rolls
 
-### Percentage Conditional Based on Amount
+### Percentage conditional based on amount
 
 How Do I… Make a Dice Roll/Result only show when more than a declared amount?
 

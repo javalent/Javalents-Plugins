@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Admonition Types
-  - Custom Admonitions
+aliases: [Admonition Types, Custom Admonitions]
 description: Admonitions comes with additional styling of the default Obsidian Callouts.
 permalink: admonitions/beginner/types
 publish: true
-tags:
-  - Admonitions/Types
-  - Admonitions/Custom
+tags: [Admonitions/Types, Admonitions/Custom]
 ---
 
-# Types of Admonitions
+# Types of admonitions
 
 The following admonition types are currently supported upon install:
 
@@ -33,7 +29,7 @@ To get a visual representation of what these admonitions look like, please refer
 
 It is worth noting that the default admonitions can be customised by creating a user-defined admonition with the same name.
 
-## Custom Admonitions and Callouts
+## Custom admonitions and callouts
 
 Custom admonitions may be created in settings. Creating a custom admonition will also enable it to be used as an Obsidian [callout](https://help.obsidian.md/Editing+and+formatting/Callouts).
 
@@ -45,13 +41,13 @@ If a default admonition is overridden, it can be restored by deleting the user-d
 
 Please note that by default, the background colour of the title is the **colour of the admonition** at **10% opacity**. CSS must be used to update this.
 
-### Images as Icons
+### Images as icons
 
-Instead of using an icon from a downloaded icon set as explained in the [[Admonitions/Admonition Options#Icon|Icon]] section, you can upload an image to use as an admonition icon. The uploaded image will be resized to 24px x 24px to fit the plugin's saved data.
+Instead of using an icon from a downloaded icon set as explained in the [[Admonitions/Metadata options#Icon|Icon]] section, you can upload an image to use as an admonition icon. The uploaded image will be resized to 24px x 24px to fit the plugin's saved data.
 
 If you want to remove an uploaded image icon, you can choose an icon from the icon chooser text box.
 
-### Icon Packs
+### Icon packs
 
 Admonitions plugin allows you to download and add additional icon packs to the existing ones through the settings.
 

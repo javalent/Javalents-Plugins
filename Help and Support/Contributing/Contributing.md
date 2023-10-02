@@ -7,7 +7,7 @@ tags: [Help/Contributing]
 ---
 <!-- omit in toc -->
 
-# Contributing to a Javalent Plugin
+# Contributing to a javalent plugin
 
 First off, thanks for taking the time to contribute. ❤️
 
@@ -26,7 +26,7 @@ Your PR helps us help you. 🎉.
 
 <!-- omit in toc -->
 
-## Table of Contents
+## Table of contents
 
 - **[Code of Conduct](CONTRIBUTING.md#code-of-conduct)**
 - **[I've a Question](CONTRIBUTING.md#ive-a-question)**
@@ -39,12 +39,12 @@ Your PR helps us help you. 🎉.
 - **[Commit Messages](CONTRIBUTING.md#commit-messages)**
 - **[Join The Project Team](CONTRIBUTING.md#join-the-project-team)**
 
-## Code of Conduct
+## Code of conduct
 
 The Code of Conduct **[governs these project and everyone participating in it](CODE_OF_CONDUCT.md)**.
 By participating, the assumption is that you are agreeing to uphold this code.
 
-## I've a Question
+## I've a question
 
 > If you want to ask a question, we assume that you have read the documentation linked above.
 
@@ -61,16 +61,16 @@ If you then still feel the need to ask a question and need clarification, we rec
 
 We will then take care of the issue as soon as possible.
 
-## I Want To Contribute
+## I want to contribute
 
 > ### Legal Notice <!-- omit in toc -->
 > When contributing to this project, you agree that you have authored 100% of the content, that you have the necessary rights to the content and that you provide the content you contribute under the project licence.
 
-### Reporting Bugs
+### Reporting bugs
 
 <!-- omit in toc -->
 
-#### Before Submitting a Bug Report
+#### Before submitting a bug report
 
 A good bug report shouldn't leave others needing to chase you up for more information.
 Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report.
@@ -89,7 +89,7 @@ Complete the following steps in advance to help us fix any potential bug as fast
 
 <!-- omit in toc -->
 
-#### How Do I Submit a Good Bug Report?
+#### How do I submit a good bug report?
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
@@ -105,7 +105,7 @@ After submitting your bug report, our team will take the following steps:
 - Attempt to reproduce the issue using the steps provided. If we cannot reproduce the issue, we may ask you for additional information and mark the issue as “discovery”.
 - If in triage we reproduce the issue, we will categorize it by importance where the issue will wait for **[someone](#your-first-code-contribution)** to implement the solution.
 
-### Suggesting Features
+### Suggesting features
 
 This section guides you through submitting an enhancement suggestion for Fantasy Statblocks,
 **including completely new features and minor improvements to existing functionality**.
@@ -114,7 +114,7 @@ and the community is to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
 
-#### Before Submitting an Enhancement
+#### Before submitting an enhancement
 
 - Make sure that you are using the latest version of Obsidian and that your installer version is 1.2.5 or newer.
 - Read the documentation linked above carefully and find out if an existing function already covers the need, maybe by an individual configuration.
@@ -123,7 +123,7 @@ and the community is to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
 
-#### How Do I Submit a Good Enhancement Suggestion?
+#### How do I submit a good enhancement suggestion?
 
 Github Issues logs all of our feature requests.
 
@@ -133,11 +133,11 @@ Github Issues logs all of our feature requests.
 - Consider including screenshots or animated GIFs to demonstrate the steps or highlight the relevant part of the project. Tools such as LiceCap (for macOS and Windows) or Silentcast and Byzanz (for Linux) may be helpful. (Note: this only applies if you are interacting with a GUI, not a CLI.)
 - Explain how the suggested enhancement would benefit most Fantasy Statblocks users. You may also want to provide examples of other projects that have successfully implemented similar features for inspiration.
 
-### Your First Code Contribution
+### Your first code contribution
 
-#### Building the Project
+#### Building the project
 
-##### Building from Source
+##### Building from source
 
 Once you have installed your desired plugin, you can use `npm` to build new `main.js` and `styles.css` files from the source:
 
@@ -157,9 +157,9 @@ Alternatively, you can use the `npm run dev` command for a more streamlined work
 3. Run npm run dev in the source directory to build the `main.js` and `styles.css` files, and place them in the folder you specified in your `.env` file.
 4. Whenever you save changes, the dev script will automatically rebuild those files.
 
-#### Adding Features to Your Plugins
+#### Adding features to your plugins
 
-### Improving The Documentation
+### Improving the documentation
 
 - Do you see any areas of documentation that seem confusing or unclear?
 - Do you see a section that you want to expand on?
@@ -176,14 +176,14 @@ Both can be freestyle. It could at first be a storytelling guide about how to co
 
 ## Styleguide
 
-### Commit Messages
+### Commit messages
 
 - This repository uses SEMVER style commit messages, specifically from **[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)**. 
 - This requirement exists to **facilitate automated versioning and changelog generation**. 
 
 We do not expect perfection, but do your best to get comfortable with these conventions if you are not familiar with them.
 
-## Join The Project Team
+## Join the project team
 
 Want to officially join the project? Message javalent#3452 on Discord. 
 

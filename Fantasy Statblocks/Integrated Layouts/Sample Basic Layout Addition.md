@@ -6,7 +6,7 @@ publish: true
 tags: [Statblocks/Layout/ShortName]
 ---
 
-# Sample Basic Layout Addition
+# Sample basic layout addition
 
 ## Description
 
@@ -16,12 +16,12 @@ tags: [Statblocks/Layout/ShortName]
 
 *Any licences required by the publisher? Like OGL or Paizo Community? Add it here too!*
 
-## Sample Image
+## Sample image
 
 >[!screenshot]- Screenshot of a Monster
 > ![]() Externally Linked Image here. These can be uploaded in the publish/layout-images folder first and linked after the fact. Just include it with your submission. The CSS for the screenshot callout is already within our publish cite, and is also found in this admonition on the TTRPG Share. 
 
-## Short Name Code Block
+## Short name code block
 
 ````yaml
 ```statblock
@@ -36,7 +36,7 @@ For the rest, please indicate how it should be filled out.
 ```
 ````
 
-### Short Name Empty Codeblock
+### Short name empty codeblock
 
 ````yaml
 ```statblock
@@ -51,10 +51,10 @@ For the rest, please indicate how it should be filled out. Boolean, string, inte
 ```
 ````
 
-## Callbacks Used
+## Callbacks used
 
 *Do you have any special callbacks you are using? Include those here as well under different headings. If Not, delete this section! :)*
 
 ### Callback 1
 
-### Callback Description II
+### Callback description ii

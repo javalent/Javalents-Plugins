@@ -1,11 +1,9 @@
 ---
-aliases:
-  - Key
+aliases: [Key]
 description: This page explains what a YAML key is.
 permalink: glossary/key
 publish: true
-tags:
-  - Glossary/YAML
+tags: [Glossary/YAML]
 ---
 
 # Key
@@ -33,4 +31,4 @@ HP: 200
 
 The Key is HP, but the block linked to HP allows for the text to render as Health.
 
-The block can also change the value field with [Callbacks](Fantasy%20Statblocks/Common%20Callback%20Functions.md).
+The block can also change the value field with [Callbacks](Fantasy%20Statblocks/Advanced%20Topics/Common%20Callbacks.md).

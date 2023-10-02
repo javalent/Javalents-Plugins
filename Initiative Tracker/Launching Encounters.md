@@ -1,16 +1,12 @@
 ---
-aliases:
-  - Launching Encounters
-  - Encounter Launch
-  - Launch an Encounter
+aliases: [Launching Encounters, Encounter Launch, Launch an Encounter]
 description: This page details how to launch encounters within Initiative Tracker.
 permalink: it/encounters/launching
 publish: true
-tags:
-  - IT/Encounters
+tags: [IT/Encounters]
 ---
 
-# Launching Encounters
+# Launching encounters
 
 The plugin allows launching encounters by clicking the "**Begin Encounter**" button, which will launch a <b><u>new encounter</u></b> as defined in the encounter block. 
 

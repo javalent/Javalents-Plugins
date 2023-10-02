@@ -6,7 +6,7 @@ publish: true
 tags: [Glossary/CSS]
 ---
 
-# Hyphen Variables
+# Hyphen variables
 
 Dash variables, also known as Hyphen Variables or Custom Properties, are variables in CSS that start with a double hyphen (`--`) followed by a name, such as `--primary-color`. These variables are often used to customize the appearance of an element, such as changing its color or font size. Some iterations of these variables may appear in single hyphen form, such as `-moz-scrollbar`.
 

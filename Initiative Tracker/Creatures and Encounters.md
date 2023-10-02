@@ -1,17 +1,12 @@
 ---
-aliases:
-  - Creatures and Encounters
-  - Creatures
-  - Initiative Tracker Creatures
+aliases: [Creatures and Encounters, Creatures, Initiative Tracker Creatures]
 description: The `creatures` parameter allows you to add additional creatures to
-  the encounter, and it is the most complicated parameter.
 permalink: it/encounters/creatures
 publish: true
-tags:
-  - IT/Encounters
+tags: [IT/Encounters]
 ---
 
-# Creatures and Encounters
+# Creatures and encounters
 
 > [!info] Looking for Players and Party Settings? Refer to [Encounter Parameters](Initiative%20Tracker/Encounter%20Parameters.md).
 
@@ -51,7 +46,7 @@ creatures:
 ```
 ````
 
-## Display Name
+## Display name
 
 You can assign display names to creatures using different syntaxes as shown below:
 
@@ -82,7 +77,7 @@ creatures:
 
 >[!note] Note that equivalent creatures will still be grouped together, but the display name will be taken into account when grouping them.
 
-## Creatures Names Containing a Comma
+## Creatures names containing a comma
 
 Referencing creatures with a `,` in their name can be done as follows:
 
@@ -108,7 +103,7 @@ You can also use an inline encounter for this:
 
 `` `encounter: 2: [["Rat, Giant", Snuggletooth], 12, 13]` ``
 
-## Using Dice Rolls
+## Using dice rolls
 
 If you have the [[Dice Roller|Dice Roller]] plugin installed, you can specify the number of creatures by a dice roll. The plugin will group together creatures that are the same, and add a Dice Roller with the combined formula to the block.
 
@@ -116,7 +111,7 @@ If you have the [[Dice Roller|Dice Roller]] plugin installed, you can specify th
 
 You can click the dice roller to re-roll the number of creatures. Note that this number is **not** saved permanently, but when you start the encounter, the number of creatures shown will be used.
 
-## Creatures from the Bestiary
+## Creatures from the bestiary
 
 You can add creatures from your bestiary by their name. This includes the complete SRD creature list, as well as any homebrew creatures added in Fantasy Statblocks.
 
@@ -131,7 +126,7 @@ creatures:
 
 If the creature is from the SRD Bestiary, the plugin will auto-calculate its XP based on its challenge rating. Otherwise, if you created the creature in the [[Fantasy Statblocks|Fantasy Statblocks]] plugin, you can supply a CR or an XP for the creature.
 
-## Setting Creatures as Allies
+## Setting creatures as allies
 
 To set a creature as friendly, add the `, ally` flag after an individual or group.
 
@@ -145,7 +140,7 @@ creatures:
 > [!screenshot]- Screenshot of Allied and Friendly Orcs
 > ![Friendly Orcs](https://github.com/javalent/initiative-tracker/blob/main/publish/images/encounter-block/friendly-creatures.png?raw=true)
 
-## Setting Creatures as Friendly
+## Setting creatures as friendly
 
 To set a creature as friendly, add the `, friendly` flag after an individual or group.
 
@@ -156,7 +151,7 @@ creatures:
 ```
 ````
 
-## Setting Creatures as Hidden
+## Setting creatures as hidden
 
 To set a creature as friendly, add the `, hidden` flag after an individual or group.
 
@@ -170,11 +165,11 @@ creatures:
 > [!screenshot]- Screenshot of Hidden Orcs
 > ![Hidden Orcs](https://github.com/javalent/initiative-tracker/blob/main/publish/images/encounter-block/hidden-creatures.png?raw=true)
 
-## Setting Creatures as Players
+## Setting creatures as players
 
-To set a creature as a player, you will need to to make a the creature a player in Fantasy Statblocks. You can follow the instructions at [[Fantasy Statblocks/Statblock Codeblocks#Player|The Code Block]] to adjust this setting.
+To set a creature as a player, you will need to to make a the creature a player in Fantasy Statblocks. You can follow the instructions at [[Fantasy Statblocks/Codeblock Creatures#Player|The Code Block]] to adjust this setting.
 
-After that, the creature will appear in the [[Initiative Tracker/Tracker Settings]].
+After that, the creature will appear in the [[Initiative Tracker/Settings]].
 
 
 The creature will also appear in the Right Sidebar "Add a Creature" as a player.
