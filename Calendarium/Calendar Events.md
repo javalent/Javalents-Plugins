@@ -23,7 +23,7 @@ To organise and differentiate events, they can be assigned to various categories
 
 ### Event notes
 
-Events have the ability to link to specific notes by specifying the note within the event creation modal or by utilising the [Event Creation](Calendarium/Event%20Creation.md Event Creation>) feature through the use of frontmatter.
+Events have the ability to link to specific notes by specifying the note within the event creation modal or by utilising the [Event Creation](Calendarium/Event%20Creation.md) feature through the use of frontmatter.
 
 If a note is selected, and the note contains relevant frontmatter (as described below), the plugin will prompt the user to confirm whether they wish to overwrite the existing event data with the frontmatter data from the note. Additionally, clicking on an event linked to a note will open the corresponding note.
 
