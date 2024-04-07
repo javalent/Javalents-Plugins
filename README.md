@@ -11,4 +11,4 @@ You may report issues to the documentation site.
 
 ## Pull Requests
 
-Documentation pull requests are accepted here, and require an issue post before they can be made.
+Documentation pull requests are accepted here. Small edits are allowed with no issue. Larger overhauls, please create an issue. 
