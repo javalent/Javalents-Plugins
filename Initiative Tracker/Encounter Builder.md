@@ -10,12 +10,14 @@ tags: [IT/Builder]
 
 Initiative Tracker also features a comprehensive Encounter Builder. The encounter builder is used to look at the bestiary in its entirety to plan out the perfect tor- I mean, *challenge*, for your players. 
 
+The encounter builder will respect the RPG System as defined in your settings. If you are not seeing the right creatures or settings, ensure you are using the correct system.
+
 >[!screenshot]- Encounter Builder Pre Remake
 > ![encounter-builder](https://github.com/javalent/initiative-tracker/blob/main/publish/images/encounter-builder/encounter-builder.png?raw=true)
 
 ## Accessing encounter builder
 
-There are currently two ways to access the encounter builder. 
+There are currently three ways to access the encounter builder. 
 
 ***Way of the Ribbon***:
 
