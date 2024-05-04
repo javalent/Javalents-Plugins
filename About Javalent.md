@@ -1,13 +1,12 @@
 ---
 aliases:
   - About Javalent
-description: Learn about Jeremy Valentine, a senior software engineer and
-  creator of plugins for the Obsidian note-taking app, aimed at enhancing the
-  gameplay experience for tabletop role-playing game (TTRPG) enthusiasts.
+description: Learn about Jeremy Valentine, a senior software engineer and creator of plugins for the Obsidian note-taking app, aimed at enhancing the gameplay experience for tabletop role-playing game (TTRPG) enthusiasts.
 permalink: about/javalent
 publish: true
 tags:
   - Javalents-Plugins/About
+cssclasses: []
 ---
 
 > [!infobox|wikipedia]+
@@ -43,11 +42,11 @@ In his spare time, Jeremy is an avid fan of tabletop role-playing games (TTRPGs)
 
 ## Departed Plugins
 
-> [!info] Where Are These Plugins Now?
-> 
-> [Block Drag](https://github.com/valentine195/obsidian-block-drag "Github") was a proof-of-concept plugin that brought Notion's block dragging feature to Obsidian. It is currently on a hiatus in the Nethamas and often sends postcards saying, "Glad you're not here."
-> 
-> [Obsidian Prettier](https://github.com/valentine195/obsidian-prettier "Github") was a plugin that enabled Prettier compatibility in Obsidian. It has since departed for Github, seeking its true calling in the world of code.
+- [Block Drag](https://github.com/valentine195/obsidian-block-drag "Github")
+	- A proof-of-concept plugin that brought Notion's block dragging feature to Obsidian. It is currently on a hiatus in the Nethamas and often sends postcards saying, "Glad you're not here."
+
+[Obsidian Prettier](https://github.com/valentine195/obsidian-prettier "Github")
+- A plugin that enabled Prettier compatibility in Obsidian. It has since departed for Github, seeking its true calling in the world of code.
 
 ## Attributions
 
@@ -56,6 +55,7 @@ In his spare time, Jeremy is an avid fan of tabletop role-playing games (TTRPGs)
 - The Obsidian icon, which appears when a link leads to [https://Obsidian.md](https://obsidian.md/), was obtained from [this thread](https://forum.obsidian.md/t/is-there-a-svg-icon-of-obsidian/20075/4) and is © 2023 [Obsidian](http://obsidian.md/ "Obsidian"). Its use is protected under **[17 U.S. Code § 107](https://www.copyright.gov/title17/92chap1.html#107)** and is not intended to imply that Javalent's plugins are an official part of Obsidian's branding, beyond what is stated in the [[About Javalent#Disclaimers|Disclaimers]] section.
 - Favicon and logo was generated with Midjourney by Sigrunixia. While Midjourney claims copyright belongs to her, she is releasing it as Unlicense. 
 - Infobox Callout courtesy of [SlRvb](https://github.com/SlRvb/Obsidian--ITS-Theme "Github") which is licensed under [GPL-2.0](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/LICENSE "Github").
+- List cards courtesy of [Kepano](https://github.com/kepano/obsidian-minimal "Github"), which is licensed under the [MIT License](https://github.com/kepano/obsidian-minimal#MIT-1-ov-file "Github")
 
 ### Special Thanks
 

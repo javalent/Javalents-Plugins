@@ -1,9 +1,11 @@
 ---
 aliases: [Calendarium Settings]
-description: "This page goes over all of the settings available within The Calendarium"
+created: 2023-08-04
+description: This page goes over all of the settings available within The Calendarium
 permalink: calendarium/settings
 publish: true
 tags: [Settings/Calendarium]
+updated: 2024-04-26
 ---
 
 # Calendarium plugin settings
@@ -57,12 +59,6 @@ If this is toggled, when `fc-calendar` is not present in the note AND [Events Fo
 By enabling the Display Event Previews option, events that are linked to notes will display a preview of the linked note. 
 
 >[!warning] The core [Page Preview](https://help.obsidian.md/Plugins/Page+preview "Obsidian") plugin must be enabled for this feature to work.
-
-### Write event data to frontmatter
-
-When toggled, if a note is linked while an event is created, the frontmatter is written to that note.
-
->[!warning] This feature is currently disabled.
 
 ### Parse note titles for dates
 

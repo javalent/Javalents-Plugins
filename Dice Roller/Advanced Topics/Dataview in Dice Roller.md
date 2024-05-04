@@ -70,4 +70,4 @@ This behaviour may change in future releases.
 
 No. The data for the information in the table does not really exist in the table, but from elsewhere. As the information is more of a projection of data elsewhere, than an actual table, standard dice roller has nothing to roll.
 
-You would need to integrate the [[Dice Roller/Advanced Topics/Dice Roller and Javascript|dice roller api]] into a `dataviewjs` [code block](Glossary/Code%20Block.md) to attempt to make a `dv.table`.
+You would need to integrate the [[Dice Roller/Advanced topics/Dice Roller and Javascript|dice roller api]] into a `dataviewjs` [code block](Glossary/Code%20Block.md) to attempt to make a `dv.table`.

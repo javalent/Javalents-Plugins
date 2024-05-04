@@ -1,2 +1,13 @@
 // Add your Custom Styles Below
 @use '.obsidian/snippets/dev/_publish-forward.scss' as *;
+
+// Add frontmatter showing for select properties
+.publish-renderer > .updated > .markdown-preview-section > div > .frontmatter {
+  /* !important is required to override a style attribute declaration on the element */
+  display: block !important;
+}
+.published-container .markdown-rendered h1,
+.published-container .markdown-rendered h2 {
+  border-bottom: none;
+  padding-bottom: 0.5em;
+}

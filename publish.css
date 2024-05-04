@@ -321,10 +321,10 @@ body {
   --red-4: #c24c4a;
   --red-5: #7a302f;
   --red-6: #50201f;
-  --red-1-rgb: 243,194,193;
-  --red-2-rgb: 237,166,165;
-  --red-4-rgb: 194,76,74;
-  --red-5-rgb: 122,48,47;
+  --red-1-rgb: 243, 194, 193;
+  --red-2-rgb: 237, 166, 165;
+  --red-4-rgb: 194, 76, 74;
+  --red-5-rgb: 122, 48, 47;
   --orange-0: #f1d6cb;
   --orange-1: #ecc5b7;
   --orange-2: #e3ac97;
@@ -332,10 +332,10 @@ body {
   --orange-4: #9d6553;
   --orange-5: #633f34;
   --orange-6: #412922;
-  --orange-1-rgb: 236,197,183;
-  --orange-2-rgb: 227,172,151;
-  --orange-4-rgb: 157,101,83;
-  --orange-5-rgb: 99,63,52;
+  --orange-1-rgb: 236, 197, 183;
+  --orange-2-rgb: 227, 172, 151;
+  --orange-4-rgb: 157, 101, 83;
+  --orange-5-rgb: 99, 63, 52;
   --yellow-bright: #fdfaf3;
   --yellow-0: #f1d9a9;
   --yellow-1: #ecc986;
@@ -343,10 +343,10 @@ body {
   --yellow-3: #c49a52;
   --yellow-4: #8d6e3b;
   --yellow-5: #594525;
-  --yellow-1-rgb: 241,217,169;
-  --yellow-2-rgb: 236,201,134;
-  --yellow-3-rgb: 196,154,82;
-  --yellow-4-rgb: 141,110,59;
+  --yellow-1-rgb: 241, 217, 169;
+  --yellow-2-rgb: 236, 201, 134;
+  --yellow-3-rgb: 196, 154, 82;
+  --yellow-4-rgb: 141, 110, 59;
   --green-0: #d6ddd7;
   --green-1: #c5d0c8;
   --green-2: #adbcb0;
@@ -354,10 +354,10 @@ body {
   --green-4: #5c7a62;
   --green-5: #3a4d3e;
   --green-6: #263228;
-  --green-1-rgb: 197,208,200;
-  --green-2-rgb: 173,188,176;
-  --green-4-rgb: 92,122,98;
-  --green-5-rgb: 58,77,62;
+  --green-1-rgb: 197, 208, 200;
+  --green-2-rgb: 173, 188, 176;
+  --green-4-rgb: 92, 122, 98;
+  --green-5-rgb: 58, 77, 62;
   --cyan-0: #bbe3e3;
   --cyan-1: #9fd8d8;
   --cyan-2: #74c6c5;
@@ -365,10 +365,10 @@ body {
   --cyan-4: #058080;
   --cyan-5: #024151;
   --cyan-6: #013535;
-  --cyan-1-rgb: 187,210,209;
-  --cyan-2-rgb: 158,190,188;
-  --cyan-4-rgb: 62,125,121;
-  --cyan-5-rgb: 39,79,76;
+  --cyan-1-rgb: 187, 210, 209;
+  --cyan-2-rgb: 158, 190, 188;
+  --cyan-4-rgb: 62, 125, 121;
+  --cyan-5-rgb: 39, 79, 76;
   --blue-0: #ceddeb;
   --blue-1: #bbd0e4;
   --blue-2: #9fbbd8;
@@ -376,10 +376,10 @@ body {
   --blue-4: #4575ae;
   --blue-5: #2c496e;
   --blue-6: #1d3048;
-  --blue-1-rgb: 187,208,228;
-  --blue-2-rgb: 159,187,216;
-  --blue-4-rgb: 69,117,174;
-  --blue-5-rgb: 44,73,110;
+  --blue-1-rgb: 187, 208, 228;
+  --blue-2-rgb: 159, 187, 216;
+  --blue-4-rgb: 69, 117, 174;
+  --blue-5-rgb: 44, 73, 110;
   --purple-0: #e2d9e1;
   --purple-1: #d7c9d5;
   --purple-2: #c6b2c3;
@@ -387,10 +387,10 @@ body {
   --purple-4: #8e6787;
   --purple-5: #594054;
   --purple-6: #392a37;
-  --purple-1-rgb: 215,201,213;
-  --purple-2-rgb: 198,178,195;
-  --purple-4-rgb: 142,103,135;
-  --purple-5-rgb: 89,64,84;
+  --purple-1-rgb: 215, 201, 213;
+  --purple-2-rgb: 198, 178, 195;
+  --purple-4-rgb: 142, 103, 135;
+  --purple-5-rgb: 89, 64, 84;
   --pink-0: #efd5dc;
   --pink-1: #e8c4ce;
   --pink-2: #deaab8;
@@ -398,18 +398,18 @@ body {
   --pink-4: #a75c70;
   --pink-5: #693a46;
   --pink-6: #45262e;
-  --pink-1-rgb: 232,196,206;
-  --pink-2-rgb: 222,170,184;
-  --pink-4-rgb: 167,92,112;
-  --pink-5-rgb: 105,58,70;
-  --gray-light-8:#fafafa;
-  --gray-light-7:#f8f8f8;
-  --gray-light-6:#f5f5f5;
-  --gray-light-5:#f1f1f1;
-  --gray-light-4:#ebebeb;
-  --gray-light-3:#e3e3e3;
-  --gray-light-2:#dbdbdb;
-  --gray-light-1:#cdcdcd;
+  --pink-1-rgb: 232, 196, 206;
+  --pink-2-rgb: 222, 170, 184;
+  --pink-4-rgb: 167, 92, 112;
+  --pink-5-rgb: 105, 58, 70;
+  --gray-light-8: #fafafa;
+  --gray-light-7: #f8f8f8;
+  --gray-light-6: #f5f5f5;
+  --gray-light-5: #f1f1f1;
+  --gray-light-4: #ebebeb;
+  --gray-light-3: #e3e3e3;
+  --gray-light-2: #dbdbdb;
+  --gray-light-1: #cdcdcd;
   --gray: #b8b8b8;
   --gray-dark-1: #a0a0a0;
   --gray-dark-2: #898989;
@@ -418,11 +418,11 @@ body {
   --gray-dark-5: #484848;
   --gray-dark-6: #3f3f3f;
   --gray-dark-7: #2f2f2f;
-  --gray-dark-75:#272727;
+  --gray-dark-75: #272727;
   --gray-dark-8: #212121;
-  --gray-dark-85:#1e1e1e;
+  --gray-dark-85: #1e1e1e;
   --gray-dark-9: #1b1b1b;
-  --gray-dark-10:#070707;
+  --gray-dark-10: #070707;
   --color-base-05: var(--gray-light-8);
   --color-base-10: var(--gray-light-7);
   --color-base-20: var(--gray-light-6);
@@ -532,7 +532,7 @@ body {
   --background-modifier-success: var(--green-2);
   --background-modifier-success-rgb: var(--green-2-rgb);
   --background-modifier-error: var(--red-4);
-  --background-modifier-error-rgb: 188,83,69;
+  --background-modifier-error-rgb: 188, 83, 69;
   --background-modifier-error-hover: var(--red-4);
   --text-normal: var(--gray-dark-5);
   --text-muted: var(--gray-dark-4);
@@ -2208,83 +2208,6 @@ a[title=Docu]:hover {
   color: rgb(232, 232, 232);
 }
 
-.nav-view-outer {
-  overflow: auto;
-  padding-bottom: 32px;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-.nav-view-outer .tree-item-children {
-  padding-left: 0;
-}
-.nav-view-outer .tree-item-self .tree-item-icon {
-  display: none;
-  display: flex;
-  align-items: center;
-  align-self: flex-start;
-  margin-inline-start: -22px;
-  padding-inline-start: 8px;
-  padding-inline-end: 2px;
-  flex: 0 0 auto;
-}
-.nav-view-outer .tree-item-self::after {
-  bottom: 0.5rem;
-  content: "";
-  display: inline-block;
-  height: 1rem;
-  left: -1px;
-  position: absolute;
-  vertical-align: text-bottom;
-  width: 1rem;
-}
-.nav-view-outer .tree-item-self[data-path="Dice Roller"], .nav-view-outer .tree-item-self[data-path="Fantasy Bestiary"], .nav-view-outer .tree-item-self[data-path=Calendarium], .nav-view-outer .tree-item-self[data-path="Initiative Tracker"], .nav-view-outer .tree-item-self[data-path=Leaflet], .nav-view-outer .tree-item-self[data-path="Fantasy Statblocks"] {
-  position: relative;
-}
-.nav-view-outer .tree-item-self[data-path="Dice Roller"]::after, .nav-view-outer .tree-item-self[data-path="Fantasy Bestiary"]::after, .nav-view-outer .tree-item-self[data-path=Calendarium]::after, .nav-view-outer .tree-item-self[data-path="Initiative Tracker"]::after, .nav-view-outer .tree-item-self[data-path=Leaflet]::after, .nav-view-outer .tree-item-self[data-path="Fantasy Statblocks"]::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23058080' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-dices'%3E%3Crect width='12' height='12' x='2' y='10' rx='2' ry='2'%3E%3C/rect%3E%3Cpath d='m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6'%3E%3C/path%3E%3Cpath d='M6 18h.01'%3E%3C/path%3E%3Cpath d='M10 14h.01'%3E%3C/path%3E%3Cpath d='M15 6h.01'%3E%3C/path%3E%3Cpath d='M18 9h.01'%3E%3C/path%3E%3C/svg%3E");
-}
-.nav-view-outer .tree-item-self[data-path=Admonitions], .nav-view-outer .tree-item-self[data-path="Second Window"], .nav-view-outer .tree-item-self[data-path="Markdown Attributes"], .nav-view-outer .tree-item-self[data-path=Notifier], .nav-view-outer .tree-item-self[data-path="Settings Search"], .nav-view-outer .tree-item-self[data-path="Prominent Bookmarked Files"], .nav-view-outer .tree-item-self[data-path="Small Plugins"] {
-  position: relative;
-}
-.nav-view-outer .tree-item-self[data-path=Admonitions]::after, .nav-view-outer .tree-item-self[data-path="Second Window"]::after, .nav-view-outer .tree-item-self[data-path="Markdown Attributes"]::after, .nav-view-outer .tree-item-self[data-path=Notifier]::after, .nav-view-outer .tree-item-self[data-path="Settings Search"]::after, .nav-view-outer .tree-item-self[data-path="Prominent Bookmarked Files"]::after, .nav-view-outer .tree-item-self[data-path="Small Plugins"]::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%239d6553' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-wand-2'%3E%3Cpath d='m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z'%3E%3C/path%3E%3Cpath d='m14 7 3 3'%3E%3C/path%3E%3Cpath d='M5 6v4'%3E%3C/path%3E%3Cpath d='M19 14v4'%3E%3C/path%3E%3Cpath d='M10 2v2'%3E%3C/path%3E%3Cpath d='M7 8H3'%3E%3C/path%3E%3Cpath d='M21 16h-4'%3E%3C/path%3E%3Cpath d='M11 3H9'%3E%3C/path%3E%3C/svg%3E");
-}
-.nav-view-outer .tree-item-self[data-path=Glossary] {
-  position: relative;
-}
-.nav-view-outer .tree-item-self[data-path=Glossary]::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%2391a695' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-book-open'%3E%3Cpath d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'%3E%3C/path%3E%3Cpath d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'%3E%3C/path%3E%3C/svg%3E");
-}
-.nav-view-outer .tree-item-self[data-path="Plugin Management"] {
-  position: relative;
-}
-.nav-view-outer .tree-item-self[data-path="Plugin Management"]::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23b399ae' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-flower-2'%3E%3Cpath d='M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1'%3E%3C/path%3E%3Ccircle cx='12' cy='8' r='2'%3E%3C/circle%3E%3Cpath d='M12 10v12'%3E%3C/path%3E%3Cpath d='M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z'%3E%3C/path%3E%3Cpath d='M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z'%3E%3C/path%3E%3C/svg%3E");
-}
-.nav-view-outer .tree-item-self[data-path="Help and Support"] {
-  position: relative;
-}
-.nav-view-outer .tree-item-self[data-path="Help and Support"]::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23e0b15e' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-heart-handshake'%3E%3Cpath d='M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z'%3E%3C/path%3E%3Cpath d='m3 15 5.12-5.12a3 3 0 0 1 2.12-.88v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66'%3E%3C/path%3E%3Cpath d='m18 15-2-2'%3E%3C/path%3E%3Cpath d='m15 18-2-2'%3E%3C/path%3E%3C/svg%3E");
-}
-@media screen and (min-width: 800px) {
-  .nav-view-outer .tree-item-self .tree-item-icon {
-    display: none;
-  }
-  .nav-view-outer .tree-item-children .tree-item[data-path="Dice Roller"], .nav-view-outer .tree-item-children .tree-item[data-path="Fantasy Bestiary"], .nav-view-outer .tree-item-children .tree-item[data-path=Calendarium], .nav-view-outer .tree-item-children .tree-item[data-path="Initiative Tracker"], .nav-view-outer .tree-item-children .tree-item[data-path=Leaflet], .nav-view-outer .tree-item-children .tree-item[data-path="Fantasy Statblocks"], .nav-view-outer .tree-item-children .tree-item[data-path=Admonitions], .nav-view-outer .tree-item-children .tree-item[data-path="Second Window"], .nav-view-outer .tree-item-children .tree-item[data-path="Markdown Attributes"], .nav-view-outer .tree-item-children .tree-item[data-path=Notifier], .nav-view-outer .tree-item-children .tree-item[data-path="Settings Search"], .nav-view-outer .tree-item-children .tree-item[data-path="Prominent Bookmarked Files"], .nav-view-outer .tree-item-children .tree-item[data-path="Small Plugins"], .nav-view-outer .tree-item-children .tree-item[data-path=Glossary], .nav-view-outer .tree-item-children .tree-item[data-path="Plugin Management"], .nav-view-outer .tree-item-children .tree-item[data-path="Help and Support"] {
-    position: relative;
-  }
-  .nav-view-outer .tree-item-children .tree-item[data-path="Dice Roller"]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Fantasy Bestiary"]::after, .nav-view-outer .tree-item-children .tree-item[data-path=Calendarium]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Initiative Tracker"]::after, .nav-view-outer .tree-item-children .tree-item[data-path=Leaflet]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Fantasy Statblocks"]::after, .nav-view-outer .tree-item-children .tree-item[data-path=Admonitions]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Second Window"]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Markdown Attributes"]::after, .nav-view-outer .tree-item-children .tree-item[data-path=Notifier]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Settings Search"]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Prominent Bookmarked Files"]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Small Plugins"]::after, .nav-view-outer .tree-item-children .tree-item[data-path=Glossary]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Plugin Management"]::after, .nav-view-outer .tree-item-children .tree-item[data-path="Help and Support"]::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23058080' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-dice-2'%3E%3Crect width='18' height='18' x='3' y='3' rx='2' ry='2'%3E%3C/rect%3E%3Cpath d='M15 9h.01'%3E%3C/path%3E%3Cpath d='M9 15h.01'%3E%3C/path%3E%3C/svg%3E");
-  }
-  .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Dice Roller"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Fantasy Bestiary"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Calendarium], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Initiative Tracker"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Leaflet], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Fantasy Statblocks"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Admonitions], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Second Window"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Markdown Attributes"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Notifier], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Settings Search"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Prominent Bookmarked Files"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Small Plugins"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Glossary], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Plugin Management"], .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Help and Support"] {
-    position: relative;
-  }
-  .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Dice Roller"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Fantasy Bestiary"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Calendarium]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Initiative Tracker"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Leaflet]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Fantasy Statblocks"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Admonitions]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Second Window"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Markdown Attributes"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Notifier]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Settings Search"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Prominent Bookmarked Files"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Small Plugins"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path=Glossary]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Plugin Management"]::after, .nav-view-outer .tree-item-children div.tree-item.is-collapsed[data-path="Help and Support"]::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23058080' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-dice-2'%3E%3Crect width='18' height='18' x='3' y='3' rx='2' ry='2'%3E%3C/rect%3E%3Cpath d='M15 9h.01'%3E%3C/path%3E%3Cpath d='M9 15h.01'%3E%3C/path%3E%3C/svg%3E");
-  }
-}
-
 body {
   --primary-accent-0: var(--green-0);
   --primary-accent-1: var(--green-1);
@@ -2306,6 +2229,373 @@ body {
   --secondary-accent-4-rgb: var(--red-4-rgb);
 }
 
+/* MIT License | Copyright (c) Stephan Ango (@kepano)
+
+Cards snippet for Obsidian
+
+author: @kepano
+version: 3.0.1
+
+Support my work:
+https://github.com/sponsors/kepano
+
+*/
+body {
+  --cards-min-width: 180px;
+  --cards-max-width: 1fr;
+  --cards-mobile-width: 120px;
+  --cards-image-height: 400px;
+  --cards-padding: 1.2em;
+  --cards-image-fit: contain;
+  --cards-background: transparent;
+  --cards-border-width: 1px;
+  --cards-aspect-ratio: auto;
+  --cards-columns: repeat(auto-fit, minmax(var(--cards-min-width), var(--cards-max-width)));
+}
+
+@media (max-width: 400pt) {
+  body {
+    --cards-min-width:var(--cards-mobile-width);
+  }
+}
+.cards.table-100 table.dataview tbody,
+.table-100 .cards table.dataview tbody {
+  padding: 0.25rem 0.75rem;
+}
+
+.cards table.dataview {
+  --table-width: 100%;
+  --table-edge-cell-padding-first: calc(var(--cards-padding)/2);
+  --table-edge-cell-padding-last: calc(var(--cards-padding)/2);
+  --table-cell-padding: calc(var(--cards-padding)/3) calc(var(--cards-padding)/2);
+  line-height: 1.3;
+}
+.cards table.dataview tbody {
+  clear: both;
+  padding: 0.5rem 0;
+  display: grid;
+  grid-template-columns: var(--cards-columns);
+  grid-column-gap: 0.75rem;
+  grid-row-gap: 0.75rem;
+}
+.cards table.dataview > tbody > tr {
+  background-color: var(--cards-background);
+  border: var(--cards-border-width) solid var(--background-modifier-border);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 0 calc(var(--cards-padding) / 3) 0;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.15s linear;
+  max-width: var(--cards-max-width);
+  height: auto;
+}
+.cards table.dataview > tbody > tr:hover {
+  border: var(--cards-border-width) solid var(--background-modifier-border-hover);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 1px rgba(0, 0, 0, 0.025);
+  transition: box-shadow 0.15s linear;
+}
+.cards table.dataview tbody > tr > td {
+  /* Paragraphs */
+  /* Links */
+  /* Buttons */
+  /* Lists */
+  /* Images */
+}
+.cards table.dataview tbody > tr > td:first-child {
+  font-weight: var(--bold-weight);
+  border: none;
+}
+.cards table.dataview tbody > tr > td:first-child a {
+  display: block;
+}
+.cards table.dataview tbody > tr > td:last-child {
+  border: none;
+}
+.cards table.dataview tbody > tr > td:not(:first-child) {
+  font-size: calc(var(--table-text-size) * 0.9);
+  color: var(--text-muted);
+}
+.cards table.dataview tbody > tr > td > * {
+  padding: calc(var(--cards-padding) / 3) 0;
+}
+.cards table.dataview tbody > tr > td:not(:last-child):not(:first-child) {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+  width: calc(100% - var(--cards-padding));
+  margin: 0 calc(var(--cards-padding) / 2);
+}
+.cards table.dataview tbody > tr > td a {
+  text-decoration: none;
+}
+.cards table.dataview tbody > tr > td > button {
+  width: 100%;
+  margin: calc(var(--cards-padding) / 2) 0;
+}
+.cards table.dataview tbody > tr > td:last-child > button {
+  margin-bottom: calc(var(--cards-padding) / 6);
+}
+.cards table.dataview tbody > tr > td > ul {
+  width: 100%;
+  padding: 0.25em 0 !important;
+  margin: 0 auto !important;
+}
+.cards table.dataview tbody > tr > td:has(img) {
+  padding: 0 !important;
+  background-color: var(--background-secondary);
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+.cards table.dataview tbody > tr > td img {
+  aspect-ratio: var(--cards-aspect-ratio);
+  width: 100%;
+  object-fit: var(--cards-image-fit);
+  max-height: var(--cards-image-height);
+  background-color: var(--background-secondary);
+  vertical-align: bottom;
+}
+
+.markdown-source-view.mod-cm6.cards .dataview.table-view-table > tbody > tr > td,
+.trim-cols .cards table.dataview tbody > tr > td {
+  white-space: normal;
+}
+
+/*
+.cards,
+.markdown-source-view.mod-cm6.cards {
+.dataview.table-view-table > tbody > tr > td,
+table.dataview tbody > tr > td {
+	border-bottom: none;
+	padding: 0!important;
+	line-height: 1.2;
+	width: calc(100% - var(--cards-padding));
+	margin: 0 auto;
+	overflow: visible !important;
+	max-width: 100%;
+	display: flex;
+}
+}*/
+.links-int-on .cards table {
+  --link-decoration: none;
+}
+
+/* Block button */
+.markdown-source-view.mod-cm6.cards .edit-block-button {
+  top: -1px;
+  right: 28px;
+  opacity: 1;
+}
+
+/* ------------------- */
+/* Sorting menu */
+.cards.table-100 table.dataview thead > tr,
+.table-100 .cards table.dataview thead > tr {
+  right: 0.75rem;
+}
+
+.table-100 .cards table.dataview thead:before,
+.cards.table-100 table.dataview thead:before {
+  margin-right: 0.75rem;
+}
+
+.cards table.dataview thead {
+  user-select: none;
+  width: 180px;
+  display: block;
+  float: right;
+  position: relative;
+  text-align: right;
+  height: 24px;
+  padding-bottom: 0;
+}
+.cards table.dataview thead:hover:after {
+  background-color: var(--background-modifier-hover);
+}
+.cards table.dataview thead:hover:before {
+  background-color: var(--text-muted);
+}
+.cards table.dataview thead:after,
+.cards table.dataview thead:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10px;
+  height: 16px;
+  cursor: var(--cursor);
+  text-align: right;
+  padding: var(--size-4-1) var(--size-4-2);
+  margin-bottom: 2px;
+  border-radius: var(--radius-s);
+  font-weight: 500;
+  font-size: var(--font-adaptive-small);
+}
+.cards table.dataview thead:before {
+  background-color: var(--text-faint);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 16px;
+  -webkit-mask-position: center center;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 100"><path fill="currentColor" d="M49.792 33.125l-5.892 5.892L33.333 28.45V83.333H25V28.45L14.438 39.017L8.542 33.125L29.167 12.5l20.625 20.625zm41.667 33.75L70.833 87.5l-20.625 -20.625l5.892 -5.892l10.571 10.567L66.667 16.667h8.333v54.883l10.567 -10.567l5.892 5.892z"></path></svg>');
+}
+.cards table.dataview thead > tr {
+  top: -1px;
+  position: absolute;
+  display: none;
+  z-index: 9;
+  border: 1px solid var(--background-modifier-border-hover);
+  background-color: var(--background-secondary);
+  box-shadow: var(--shadow-s);
+  padding: 6px;
+  border-radius: var(--radius-m);
+  flex-direction: column;
+  margin: 24px 0 0 0;
+  width: 100%;
+}
+.cards table.dataview thead:hover > tr {
+  display: flex;
+  height: auto;
+}
+.cards table.dataview thead > tr > th {
+  display: block;
+  padding: 3px 30px 3px 6px !important;
+  border-radius: var(--radius-s);
+  width: 100%;
+  font-weight: 400;
+  color: var(--text-normal);
+  cursor: var(--cursor);
+  border: none;
+  font-size: var(--font-ui-small);
+}
+.cards table.dataview thead > tr > th[sortable-style=sortable-asc],
+.cards table.dataview thead > tr > th[sortable-style=sortable-desc] {
+  color: var(--text-normal);
+}
+.cards table.dataview thead > tr > th:hover {
+  color: var(--text-normal);
+  background-color: var(--background-modifier-hover);
+}
+
+/* ------------------- */
+/* Card lists */
+.list-cards.markdown-preview-view .list-bullet,
+.list-cards.markdown-preview-view .list-collapse-indicator, .list-cards.markdown-preview-view.markdown-rendered.show-indentation-guide li > ul::before {
+  display: none;
+}
+.list-cards.markdown-preview-view div > ul {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: var(--cards-columns);
+  padding: 0;
+  line-height: var(--line-height-tight);
+}
+.list-cards.markdown-preview-view div > ul .contains-task-list {
+  padding-inline-start: calc(var(--cards-padding) * 1.5);
+}
+.list-cards.markdown-preview-view div > ul > li {
+  background-color: var(--cards-background);
+  padding: calc(var(--cards-padding) / 2);
+  border-radius: var(--radius-s);
+  border: var(--cards-border-width) solid var(--background-modifier-border);
+  overflow: hidden;
+}
+.list-cards.markdown-preview-view div > ul .image-embed {
+  padding: 0;
+  display: block;
+  background-color: var(--background-secondary);
+  border-radius: var(--image-radius);
+}
+.list-cards.markdown-preview-view div > ul .image-embed img {
+  aspect-ratio: var(--cards-aspect-ratio);
+  object-fit: var(--cards-image-fit);
+  max-height: var(--cards-image-height);
+  background-color: var(--background-secondary);
+  vertical-align: bottom;
+}
+.list-cards.markdown-preview-view div > ul > li > a {
+  --link-decoration: none;
+  --link-external-decoration: none;
+  font-weight: var(--bold-weight);
+}
+.list-cards.markdown-preview-view div ul > li:hover {
+  border-color: var(--background-modifier-border-hover);
+}
+.list-cards.markdown-preview-view div ul ul {
+  display: block;
+  width: 100%;
+  color: var(--text-muted);
+  font-size: var(--font-smallest);
+  margin: calc(var(--cards-padding) / -4) 0;
+  padding: calc(var(--cards-padding) / 2) 0;
+}
+.list-cards.markdown-preview-view div ul ul ul {
+  padding-bottom: calc(var(--cards-padding) / 4);
+}
+.list-cards.markdown-preview-view div ul ul > li {
+  display: block;
+}
+
+/* ------------------- */
+/* Helper classes */
+.cards.cards-16-9,
+.list-cards.cards-16-9 {
+  --cards-aspect-ratio: 16/9;
+}
+.cards.cards-1-1,
+.list-cards.cards-1-1 {
+  --cards-aspect-ratio: 1/1;
+}
+.cards.cards-2-1,
+.list-cards.cards-2-1 {
+  --cards-aspect-ratio: 2/1;
+}
+.cards.cards-2-3,
+.list-cards.cards-2-3 {
+  --cards-aspect-ratio: 2/3;
+}
+.cards.cards-cols-1,
+.list-cards.cards-cols-1 {
+  --cards-columns: repeat(1, minmax(0, 1fr));
+}
+.cards.cards-cols-2,
+.list-cards.cards-cols-2 {
+  --cards-columns: repeat(2, minmax(0, 1fr));
+}
+.cards.cards-cover,
+.list-cards.cards-cover {
+  --cards-image-fit: cover;
+}
+.cards.cards-align-bottom table.dataview tbody > tr > td:last-child,
+.list-cards.cards-align-bottom table.dataview tbody > tr > td:last-child {
+  margin-top: auto;
+}
+
+@media (max-width: 400pt) {
+  .cards table.dataview tbody > tr > td:not(:first-child) {
+    font-size: 80%;
+  }
+}
+@media (min-width: 400pt) {
+  .cards-cols-3 {
+    --cards-columns: repeat(3, minmax(0, 1fr));
+  }
+  .cards-cols-4 {
+    --cards-columns: repeat(4, minmax(0, 1fr));
+  }
+  .cards-cols-5 {
+    --cards-columns: repeat(5, minmax(0, 1fr));
+  }
+  .cards-cols-6 {
+    --cards-columns: repeat(6, minmax(0, 1fr));
+  }
+  .cards-cols-7 {
+    --cards-columns: repeat(7, minmax(0, 1fr));
+  }
+  .cards-cols-8 {
+    --cards-columns: repeat(8, minmax(0, 1fr));
+  }
+}
 .theme-dark .callout[data-callout=code] {
   --callout-color: 13, 246, 255;
 }
@@ -2398,4 +2688,13 @@ body {
   --callout-icon: '<svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 1024 1024"><path fill="currentColor" d="M511.997 31.99c-79.531 0-144.003 64.472-144.003 144.003s64.472 144.003 144.003 144.003S656 255.524 656 175.993 591.528 31.99 511.997 31.99zm0 95.995c26.514 0 47.997 21.494 47.997 47.997s-21.494 47.997-47.997 47.997c-26.514 0-47.997-21.494-47.997-47.997s21.494-47.997 47.997-47.997zm96.005 384c0 53.017-42.978 95.995-96.005 95.995-53.017 0-96.005-42.978-96.005-95.995s42.978-95.995 96.005-95.995c53.027 0 96.005 42.978 96.005 95.995zm-96.005 192c-79.531 0-144.003 64.472-144.003 144.003s64.472 144.003 144.003 144.003S656 927.519 656 847.988c0-79.531-64.472-144.003-144.003-144.003zm0 96.005c26.514 0 47.997 21.494 47.997 47.997s-21.494 47.997-47.997 47.997c-26.514 0-47.997-21.494-47.997-47.997s21.494-47.997 47.997-47.997zM927.69 271.987c-39.765-68.869-127.829-92.471-196.708-52.706s-92.471 127.829-52.706 196.708 127.829 92.471 196.708 52.706 92.471-127.829 52.706-196.708zm-83.134 47.998c13.252 22.96 5.391 52.314-17.569 65.566s-52.314 5.391-65.566-17.569-5.391-52.314 17.569-65.566 52.304-5.381 65.566 17.569zM345.727 607.99c-39.765-68.869-127.829-92.471-196.708-52.706S56.548 683.113 96.313 751.992s127.829 92.471 196.708 52.706 92.471-127.829 52.706-196.708zm-83.145 47.997c13.252 22.96 5.391 52.314-17.569 65.566s-52.314 5.391-65.566-17.569-5.391-52.314 17.569-65.566 52.314-5.391 65.566 17.569zm-166.279-384C56.538 340.866 80.14 428.93 149.009 468.695c68.879 39.765 156.943 16.163 196.708-52.706s16.163-156.943-52.706-196.708c-68.869-39.765-156.943-16.163-196.708 52.706zm83.145 47.998c13.252-22.96 42.606-30.82 65.566-17.569s30.82 42.606 17.569 65.566-42.606 30.82-65.566 17.569c-22.96-13.252-30.82-42.606-17.569-65.566zM678.276 607.99c-39.765 68.879-16.163 156.943 52.706 196.708 68.879 39.765 156.943 16.163 196.708-52.706s16.163-156.943-52.706-196.708c-68.879-39.765-156.943-16.163-196.708 52.706zm83.135 47.997c13.252-22.96 42.606-30.82 65.566-17.569s30.82 42.606 17.569 65.566-42.606 30.82-65.566 17.569c-22.95-13.252-30.82-42.606-17.569-65.566z"></path></svg>';
 }
 
-/*# sourceMappingURL=publish.css.map */
+.publish-renderer > .updated > .markdown-preview-section > div > .frontmatter {
+  /* !important is required to override a style attribute declaration on the element */
+  display: block !important;
+}
+
+.published-container .markdown-rendered h1,
+.published-container .markdown-rendered h2 {
+  border-bottom: none;
+  padding-bottom: 0.5em;
+}

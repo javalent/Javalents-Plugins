@@ -1,9 +1,11 @@
 ---
 aliases: [Creating a Calendar]
+created: 2023-08-04
 description: This page details how to create a new calendar within Calendarium Settings
 permalink: calendarium/create-calendar
 publish: true
 tags: [Calendarium/Create]
+updated: 2024-04-26
 ---
 
 # Creating a calendar
@@ -30,7 +32,7 @@ Enable this feature to automatically advance the calendar day by one for every r
 
 ### Date format
 
-This setting is used to control how the Calendar formats dates. This includes how dates are parsed from notes to create events and how the [[Calendarium API]] returns dates.
+This setting is used to control how the Calendar formats dates. This includes how dates are parsed from notes to create events and how the [[Calendarium/Advanced topics/Calendarium API]] returns dates.
 
 This format supports `Y`, `M`, and `D` as tokens:
 * `Y` - any number of Y will bring the full year.

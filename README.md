@@ -1,5 +1,5 @@
 ---
-publish:
+publish: false
 ---
 # Javalents Plugins
 

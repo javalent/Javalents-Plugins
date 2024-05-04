@@ -570,7 +570,7 @@ spellcasting:
 
 For the final example we will use, because anything more is redundant, a token.
 
-Token is an [[Fantasy Statblocks/Editing Layouts/Core Blocks#Image Block|Image Block]]. We also added the option to include a [[Fantasy Statblocks/Editing Layouts/Core Blocks#Text Block|Text Block]] that is linked to `token` so that any text displayed in the name is also displayed, for [[Small Plugins/Second Window|Second Window]] purposes.
+Token is an [[Fantasy Statblocks/Editing Layouts/Core Blocks#Image Block|Image Block]]. We also added the option to include a [[Fantasy Statblocks/Editing Layouts/Core Blocks#Text Block|Text Block]] that is linked to `token` so that any text displayed in the name is also displayed, for [[Utility plugins/Second Window|Second Window]] purposes.
 
 ````yaml
 ```statblock
