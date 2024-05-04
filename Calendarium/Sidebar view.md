@@ -1,9 +1,11 @@
 ---
 aliases: [Calendarium View Settings, Calendarium Sidebar View]
+created: 2023-08-04
 description: 
 permalink: calendarium/settings/view
 publish: true
 tags: [Calendarium/View]
+updated: 2024-04-26
 ---
 
 # Sidebar view

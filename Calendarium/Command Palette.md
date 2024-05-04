@@ -1,9 +1,11 @@
 ---
 aliases: [Calendarium Commands]
+created: 2023-08-04
 description: 
 permalink: calendarium/command-palette
 publish: true
 tags: [Calendarium/Command-Palette]
+updated: 2024-04-26
 ---
 
 # Command palette options
@@ -13,12 +15,6 @@ If you have the [Command Palette](https://help.obsidian.md/Plugins/Command+palet
 ## Open calendarium
 
 This command opens a calendar view in the side panes, allowing you to conveniently interact with your calendar.
-
-## Open large calendarium
-
-> [!warning] This functionality is currently disabled in the current BRAT release.
-
-This command would typically open a larger calendar view in the center pane. 
 
 ## Rescan events
 

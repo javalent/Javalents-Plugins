@@ -16,7 +16,7 @@ If you have JavaScript plugins like [CustomJS](https://github.com/saml-dev/obsid
 const diceRollerPlugin = app.plugins.getPlugin("obsidian-dice-roller");
 ```
 
-Once you have obtained an instance of the plugin, you can create different types of rollers, such as simple dice rollers or [Tag Rollers](Dice%20Roller/Advanced%20Topics/Dataview%20in%20Dice%20Roller.md#Tag%20Rollers), using the `getRoller` method. Here's an example:
+Once you have obtained an instance of the plugin, you can create different types of rollers, such as simple dice rollers or [Tag Rollers](Dice%20Roller/Advanced%20topics/Dataview%20in%20Dice%20Roller.md#Tag%20Rollers), using the `getRoller` method. Here's an example:
 
 ```javascript
 //definition

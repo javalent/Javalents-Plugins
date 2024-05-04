@@ -1,17 +1,20 @@
 ---
 aliases: [The Calendarium API, Calendarium API]
+created: 2023-08-04
 description: This page details how to access the API within The Calendarium plugin.
 permalink: calendarium/api
 publish: true
 tags: [API/Calendarium]
+updated: 2024-04-26
 ---
-# Calendarium API
+
+# Calendarium api
 
 The plugin has an API that can be used to get information for the calendars that you have created. This allows you to, for example, easily use data from your calendar in Dataview, CustomJS, Templater, or other plugins which access obsidian's Global Javascript. 
 
-The full API can be referenced in [/src/@types/api.d.ts](https://github.com/javalent/the-calendarium/blob/534dcdeb46f35d47ea6ec986e67114be4274f2d5/src/%40types/api.d.ts "Github")
+The full API can be referenced in [/src/api/calendar.ts](https://github.com/javalent/calendarium/blob/main/src/api/calendar.ts "Github")
 
-## Accessing the API
+## Accessing the api
 
 The plugin API is available on the global window object as `Calendarium`.
 
@@ -26,12 +29,8 @@ Calendarium.getAPI("<calendar-name>");
 > const calendarAPI = Calendarium.getAPI("calendar-name");
 > ```
 
-
-### Accessing the calendar by name
-
-
-
 ## Dates
+
 ### Retrieving a date
 
 ```js

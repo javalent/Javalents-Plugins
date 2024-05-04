@@ -1,9 +1,11 @@
 ---
 aliases: [Calendar in Note - Embed calendar]
+created: 2023-08-04
 description: This page details how calendarium can be simply embedded into a note.
 permalink: calendarium/embed/note
 publish: true
 tags: [Calendarium/Embed]
+updated: 2024-04-26
 ---
 
 # Embed calendar in note

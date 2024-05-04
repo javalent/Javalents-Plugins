@@ -1,9 +1,11 @@
 ---
 aliases: [Days and Weeks and Months and Years]
+created: 2023-08-04
 description: This page talks about modifying the day, week, month, and year
 permalink: calendarium/styling
 publish: true
 tags: [Calendarium/Components]
+updated: 2024-04-26
 ---
 
 # Days and weeks and months and years

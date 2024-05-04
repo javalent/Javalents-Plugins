@@ -1,9 +1,11 @@
 ---
 aliases: [Calendarium Day View, Day View, Current Day]
+created: 2023-08-04
 description: 
 permalink: calendarium/day
 publish: true
 tags: [Calendarium/Time]
+updated: 2024-04-26
 ---
 
 # Day view

@@ -1,17 +1,45 @@
 ---
-aliases: [Automatic Event Creation, Calendarium Automatic Event Creation, Event Creation]
-description: 
-permalink: calendarium/events/automatic
+aliases: [Calendarium Events, Events]
+created: 2024-04-25
+description: This page details a general overview of Events within The Calendarium.
+permalink: calendarium/events
 publish: true
 tags: [Calendarium/Events]
+updated: 2024-04-26
 ---
+
+# Calendar events
+
+## Events
+
+Events can be conveniently added to a specific day by performing a right-click action on the desired day and selecting "New Event". 
+
+- Alternatively, events can also be created by clicking on a day that currently does not have any events. 
+- Furthermore, events can be created or modified through the Calendar section in the plugin settings or by utilising note frontmatter.
+
+When viewing the [Day View](Calendarium/Day%20View.md) or the large calendar, clicking on an event flag will provide access to the event's description.
+
+### Categories
+
+To organise and differentiate events, they can be assigned to various categories that are created within the calendar settings of the plugin. This assignment will result in the dot and the flag associated with the event adopting the color associated with the assigned category.
+
+### Event notes
+
+Events have the ability to link to specific notes by specifying the note within the event creation modal or by utilising the [Event Creation](Calendarium/Event%20Creation.md) feature through the use of frontmatter.
+
+If a note is selected, and the note contains relevant frontmatter (as described below), the plugin will prompt the user to confirm whether they wish to overwrite the existing event data with the frontmatter data from the note. Additionally, clicking on an event linked to a note will open the corresponding note.
+
+### Multi-day events
+
+For events that span across multiple days, the event creation modal provides an option to select "Add End Date". This allows the user to specify the end date of the event, effectively defining its duration.
+
+### Event intervals
+
+Events can be scheduled to occur at regular intervals by utilizing the "Add Interval" button within the event creation modal. While a starting date is required, an end date is optional for interval-based events.
 
 # Event creation
 
 Calendarium allows the 'automation' of event creation through the use of frontmatter keys, or inline `<span>` HTML elements.
-
-
->[!warning] Frontmatter based functionality for event creation is currently unpredictable within the BRAT release. The span-tag functionality is currently working.
 
 ## Frontmatter creation
 
@@ -21,7 +49,7 @@ With frontmatter events, automatic event creation uses `fc-date` and `fc-categor
 | ----------------------------- | -------------------------------------------------------------------------------------------- |
 | [`fc-calendar`](#fc-calendar) | Calendar name or array of calendar names to the event should be added to.                    |
 | [`fc-date`](#fc-date)         | Date string, date object or array of date objects with `year`, `month` and `day` parameters. |
-| `fc-category`                 | Name of the event category you want the event assigned to.                                                                  |
+| `fc-category`                 | Name of the event category you want the event assigned to.                                   |
 | `fc-display-name`             | An optional display name for the event. Otherwise, the file name is used.                    |
 | `fc-end`                      | Date string, date object or array of date objects with `year`, `month` and `day` parameters. |
 
@@ -111,7 +139,7 @@ Calendarium also supports the functionality of using HTML span tags to declare a
 The syntax for span tags are as follows.
 
 ```md
-<span data-category='orange' data-date='144-Ches' data-end='144-Ches-03-07' data-img='Inline Example/Event_2.jpg' data-name='Another Event'>Event Description</span>
+<span data-category='orange' data-calendar="EGSC" data-date='144-Ches' data-end='144-Ches-03-07' data-img='Inline Example/Event_2.jpg' data-name='Another Event'>Event Description</span>
 ```
 
 ### Enabling span tags
@@ -119,7 +147,7 @@ The syntax for span tags are as follows.
 Before span tags will work, however, they will need to be enabled within your individual calendar settings. 
 
 > [!screenshot]- Screenshot of Span Tags within Calendar Settings
-> ![span tags settings](publish/images/IMG-Event%20Creation.png)
+> ![span tags settings](publish/images/IMG-Events%20and%20event%20creation.png)
 
 The default inline event tag is an optional `#tag` you can set within your frontmatter to further narrow the search.
 
@@ -129,6 +157,7 @@ Let's break down the HTML Span tag.
 
 - `<span`: The opening of the html tag.
 - `data-category='orange'`: A remnant of the timelines plugin. This is left in for now because it may be repurposed. 
+- `data-calendar="EGSC"`: To declare which Calendarium Calendar this event should be filed under.
 - `data-date='144-Ches'`: The date of the event. Also functions as Start Date if an end date is included.
 - `data-end='144-Ches-03-07'`: The end date of the event, if needed.
 - `data-img='Inline Example/Event_2.jpg'`: An image to be associated with the event. A remnant of the timelines plugin. This is left in for now because it may be repurposed. 
